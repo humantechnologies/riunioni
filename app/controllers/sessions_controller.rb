@@ -94,6 +94,8 @@ class SessionsController < ApplicationController
       end
     end
 
+    user_time_zone(user)
+
     login(user)
   end
 
@@ -155,13 +157,25 @@ class SessionsController < ApplicationController
 
   private
 
+  # Sets a user's time zone when they sign in if the attribute is empty
+  def user_time_zone(user)
+    return if user.time_zone.present?
+
+    time_zone = if TZInfo::Timezone.all_country_zone_identifiers.include? session_params[:time_zone]
+      session_params[:time_zone]
+    else
+      "Etc/UTC"
+    end
+    user.update_attribute(:time_zone, time_zone)
+  end
+
   # Verify that GreenLight is configured to allow user signup.
   def check_user_signup_allowed
     redirect_to root_path unless Rails.configuration.allow_user_signup
   end
 
   def session_params
-    params.require(:session).permit(:email, :password)
+    params.require(:session).permit(:email, :password, :time_zone)
   end
 
   def one_provider

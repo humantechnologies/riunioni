@@ -52,6 +52,24 @@ module UsersHelper
     language_opts.sort
   end
 
+  # Returns time zone selection options for user edit
+  def timezone_options
+    locales = TZInfo::Timezone.all_country_zone_identifiers
+    locales.push("Etc/UTC")
+    timezone_opts1 = []
+    timezone_opts2 = []
+    locales.each do |locale|
+      timezone_mapping = ActiveSupport::TimeZone[locale].to_s
+      if timezone_mapping.include? "+"
+        timezone_opts1.push([timezone_mapping, locale])
+      else
+        timezone_opts2.push([timezone_mapping, locale])
+      end
+    end
+    timezone_opts2 = timezone_opts2.sort { |a, b| b <=> a }
+    timezone_opts2 + timezone_opts1.sort
+  end
+
   # Parses markdown for rendering.
   def markdown(text)
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML,
@@ -64,5 +82,15 @@ module UsersHelper
       highlight: true)
 
     markdown.render(text).html_safe
+  end
+
+  # Returns user local time
+  def user_local_time(time)
+    time.in_time_zone(ActiveSupport::TimeZone.new(current_user.time_zone))
+  end
+
+  # Returns a cleaner date
+  def date_formatter(date)
+    date.strftime('%a, %d %b %Y %H:%M')
   end
 end
