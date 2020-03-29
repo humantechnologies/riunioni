@@ -35,8 +35,8 @@ it:
         disabled: Disabilitato
         enabled: Abilitato
         info: Permettere l'accesso solo ad utenti autenticati
-        title: Richiedi autenticazione per ogni stanza
-        user-info: Devi prima registrarti a BigBlueButton per accedere alla stanza
+        title: Richiedi autenticazione per ogni sala
+        user-info: Devi prima registrarti a Riunioni.Online per accedere alla Sala
       branding:
         change: Cambia immagine
         info: Cambia il logo del brand che appare nell'angolo in alto a sinistra
@@ -64,8 +64,11 @@ it:
           invite: Accesso tramite invito
           open: Registrazione libera
       rooms:
-        info: Limita il numero di stanze che un utente può avere (inclusa la stanza Home). Questa impostazione non si applica agli utenti Amministratori
+        info: Limita il numero di stanze che un utente può avere (inclusa la Sala Home). Questa impostazione non si applica agli utenti Amministratori
         title: Numero di stanze per utente
+      shared_access:
+        info: impostando disabilitato si rimuove il bottone dalle opzioni della Sala, impedendo agli utenti di condividere le Sale
+        title: Consenti agli utenti di condividere la sala
       subtitle: Personalizza Greenlight
       title: Impostazioni Sito
     flash:
@@ -86,7 +89,7 @@ it:
       title: Registrazioni video sul server
       no_recordings: Il server non ha registrazioni video
     roles:
-      can_create_rooms: Non posso creare la stanza
+      can_create_rooms: Non posso creare la Sala
       delete: Cancella il ruolo
       invalid_create:
       invalid_order:
@@ -128,11 +131,11 @@ it:
         username: Nome utente
       title: Gestisci utenti
   add_to_google_calendar: "Aggiungi a Google Calendar"
-  bigbluebutton: BigBlueButton
-  bigbluebutton_exception: "Dannazione, c'è stato un errore nell'avvio del meeting!"
+  bigbluebutton: Riunioni.Online
+  bigbluebutton_exception: "Oops, c'è stato un errore nell'avvio del meeting!"
   cancel: Annulla
   cookies:
-    cookie_info: "I Cookies aiutano a fornire i servizi personalizzati. Usando i nostri servizi, accetti di usare i nostri Cookies."
+    cookie_info: "Questo sito utilizza cookies anche di terze parti per fornirti un servizio migliore e personalizzato, per ricordare se sei hai effetuato il login, per effetturare un login sicuro e collezionare statistiche per ottimizare il funzionamento del sito. Se vuoi saperne di più clicca su informazioni. Chiudendo questo banner, scorrendo questa pagina o cliccando su qualunque suo elemento accetti l'utilizzo dei cookie da parte nostra. Per negare il consenso abbandona il sito."
     cookie_button: Accetto
   copied: Copiato
   copy: Copia
@@ -153,7 +156,7 @@ it:
     internal:
       message:
       help: L'errore è stato salvato nel file di log per poter essere analizzato
-      report:
+      report: Contatti
     maintenance:
       message: "Ci dispiace, siamo offline per operazioni tecniche di manutenzione"
       help: Torneremo presto online!
@@ -188,30 +191,71 @@ it:
     unauthorized:
       message: Non hai accesso a questa applicazione
       help: "Se credi che sia un errore, contatta il tuo amministratore."
+    signup:
+       name: nome non valido (non può essere vuoto e max 256 caratteri)
+       email: email non valida (non può essere vuota, non corretta o già usata)
+       password: password non valida (min 6 caratteri)
+       confirm: le password inserite sono diverse
+       terms: termini e condizioni devono essere accettati
   expired_reset_token: Il link per il reset della password è scaduto!
   features:
-    title: Caratteristiche
-    rooms: Stanze personalizzate
-    recordings: Gestione delle registrazioni
-    designs: Grafiche personalizzate
-    authentication: Autenticazione Utente
+    title: Registrati gratuitamente su Riunioni.Online
+    subtitle: "La prima piattaforma italiana di  videoconferenze e didattica online. Qui puoi creare le tue Sale Virtuali per le tue riunioni professionali e lezioni, o collegarti con i tuoi  amici in  modo semplice e veloce. Invia il link della tua sala per consentire l'accesso alla riunioni, usa la lavagna virtuale per disegnare e per mostrare presentazioni e contenuti multimediali, chatta e condividi il tuo schermo con i partecipanti."
+    subtitle2: Uno strumento essenziale per le riunioni di lavoro di piccole e medie imprese, per l'organizzazione di corsi e webinar, per i professionisti della formazione a distanza, per docenti e studenti che vogliono organizzare lezioni private, ripetizioni o aule di sostegno.
+    rooms: Sale Riunioni
+    roomsdetails: Meetings Aziendali, Riunioni Professionali, Lezioni 
+    recordings: Resistrazione e Crittografia
+    recordingsdetails: Registrazione Riunioni e Collegamenti Crittografati
+    designs: Video Webinars
+    designdetails: Webinars, Video Corsi, Formazione e Lezioni di Gruppo
+    authentication: Condivisione Schermo
+    authdetails: Lavagna Virtuale e Condivisione Materiale Didattico
+    whytitle: Perchè usare le Aule Virtuali di Riunioni.Online
+    whypara1: Se sei un docente, una scuola o una società che eroga formazione nelle aule virtuali di Riunioni.online puoi ospitare le tue lezioni individuali e di gruppo, organizzare webinar e seminari per studenti e professionisti senza far muovere i partecipanti da casa, da scuola o dalla propria postazione di lavoro.
+    whypara2: Se gestisti una azienda puoi organizzare riunioni o erogare corsi di formazione e aggiornamento ai tuoi dipendenti direttamente nella loro postazione, anche in sedi diverse sparse sul territorio, con una notevole ottimizzazione dei tempi di esecuzione e riduzione dei costi per spostamenti e logistica.
+    whypara3: Puoi anche utilizzare i nostri servizi per fornire supporto tecnico online ai clienti della tua attività, consentendogli di connettersi in videoconferenza per richiedere informazioni e parlare con un esperto  della tua azienda, anticipando già da remoto la soluzione di alcuni problemi o consentendo un intervento più mirato sul campo.
+    whypara4: Con Riunioni.online oggi è più facile interagire e comunicare, dialogare online con i propri studenti, fare domande ai docenti. Facilita la creazione un ambiente collaborativo ed integrato nella tua azienda, favorisce la diffusione di informazioni e materiale educativo, ti consente di risparmiare sui costi.
+    share: Consiglialo ai tuoi amici
   footer:
-    powered_by: "Questo progetto utilizza %{href}."
+    powered_by: "Copyright 2020:   %{href}."
+    ht: "HT Tecnologie Umanistiche s.r.l. - cf/p.iva 02160600991"
+    mail: info@tecnologie-umanistiche.it
+    phone: "+39 3357499489"
+    terms: Termini di Utilizzo
+    privacy: Privacy Policy
+    cookies: Cookies
+    info: Informazioni
+    faq: FAQ
+    contacts: Contatti
   forgot_password:
     subtitle: Password dimenticata
     email: Email
     submit: Invia
   go_back: Indietro
-  greenlight: Greenlight
+  go_home: Vai alle Sale
+  greenlight: Riunioni.Online
   header:
     all_recordings: Tutte le Registrazioni
     dropdown:
       account_settings: Organizzazione
-      help: "Ti serve aiuto?"
+      info: Informazioni
+      faq: FAQs
+      help: "serve aiuto?"
       home: Principale
       settings: Profilo
       signout: Esci
-  home_room: Stanza principale
+  home_room: Sala Personale Base
+  ht: HT - Tecnologie Umanistiche
+  info:
+     contatti: Contatti
+     cookies: Cookies
+     faq: FAQ (Frequently Asked Questions)
+     help: "Istruzioni per l'Utilizzo"
+     informazioni: Informazioni
+     prezzi: Piani e Prezzi
+     privacy: Privacy Policy
+     termini: Termini di Utilizzo
+     lorem: Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
   info_update_success: Le informazioni sono state aggiornate.
   invalid_credentials: L'email e/o la password che hai fornito non hanno riscontro in archivio. Prova ancora o clicca su "Ho dimenticato la password" per resettare e reimpostare la tua password attuale
   invalid_login_method: "Accesso fallito: account non corretto. Devi effettuare l'accesso con omniauth."
@@ -221,23 +265,24 @@ it:
       mailer:
         subject: 'ti ha mandato un invito per visualizzare una registrazione.'
         body: 'Per visualizzare la registrazione, clicca su questo link: '
-        autogenerated: 'Questa email è stata generata automaticamente da BigBlueButton.'
-        footer: 'BigBlueButton è un sistema di videoconferenza basato su software libero. Per maggiori informazioni su BigBlueButton, visita https://bigbluebutton.org/.'
+        autogenerated: 'Questa email è stata generata automaticamente da Riunioni.Online.'
+        footer: 'Riunioni.Online è un sistema di videoconferenza basato su software libero.'
   landing:
-    about: "%{href} è una semplice interfaccia per il software di video-conferenza open source BigBlueButton. Puoi creare Stanze per ospitare i meeting, o partecipare ad altri meeting utilizzando collegamenti brevi."
-    welcome: Benvenuti su BigBlueButton.
-    video: Guarda il tutorial sull'utilizzo di GreenLight
-    upgrade: Mostrami come aggiornare alla versione 2.0!
-    version: "E' stata rilasciata una nuova versione di GreenLight, ma il tuo database non è compatibile."
+    about: "La prima piattaforma italiana di  web conferencing e didattica online. Qui puoi creare le tue Aule Virtuali per le tue riunioni e lezioni, o collegarti con i tuoi  amici in  modo semplice e veloce. Invia il link della tua Aula per consentire l'accesso alla riunioni, usa la lavagna virtuale per disegnare e per mostrare presentazioni e contenuti multimediali, chatta e condividi il tuo schermo con i partecipanti."
+    welcome: Benvenuto su Riunioni.Online
+    meetings: Riunioni Ovunque Tu Sia
+    video: Scopri cosa puoi fare su Riunioni.Online
+    upgrade: Mostrami come passare a 2.0!
+    version: Abbiamo una nuova versione di Riunioni, ma il tuo database non è compatibile.
   language_default: Predefinito (linguaggio del browser)
   ldap_error: Impossibile collegarsi al server LDAP. Controlla la configurazione LDAP nel file env e assicurati che il server sia attivo.
-  login: Entra
-  login_title: Entra nel tuo account
+  login: Accedi
+  login_title: Accedi al tuo account
   mailer:
     user:
       approve:
         info: Il tuo account è stato approvato.
-        signin: "Per accedere alle stanze personali, clicca sul bottone in basso ed effettua il login"
+        signin: "Per accedere alle sale personali, clicca sul bottone in basso ed effettua il login"
         signin_link: Entra
         signup:
           info: "Un nuovo utente si è registrato "
@@ -277,7 +322,7 @@ it:
         subtitle:
       verify_email:
         welcome: "Benvenuti nel vostro spazio personale, %{name}!"
-        success: "Supporta %{bigbluebutton}, puoi creare le tue stanze e ospitare meeting per collaborare con altri utenti."
+        success: "Supporta %{bigbluebutton}, puoi creare le tue sale e ospitare meeting per collaborare con altri utenti."
         username: "Il tuo nome utente è %{email}."
         verify: "Per verificare il tuo account, clicca sul link seguente."
         verify_text: 'Per verificare il tuo account, visita questo indirizzo: %{url}'
@@ -286,6 +331,17 @@ it:
   maintenance:
     window_alert:
   max_concurrent: E' stato raggiunto il massimo numero di sessioni contemporanee!
+  meta:
+     hometitle: "Riunioni.Online, Riunioni e Lezioni Online"
+     homedescription: "Aule Virtuali per riunioni e lezioni, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
+     homekeywords: "riunioni online, lezioni online, ripetizioni, videoconferenze, webinar, meetings, formazione, docenti, studenti, aula virtuale, condivisione schermo"
+     staticpagestitle: "Riunioni.Online"
+     staticpagesdescription: "Aule Virtuali per riunioni e lezioni, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
+     staticpageskeywords: "riunioni online, lezioni online, videoconferenze, webinar, meetings, aula virtuale, condivisione schermo"
+     title: "Riunioni.Online"
+     description: "Aule Virtuali per riunioni e lezioni, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
+     keywords: "riunioni online, lezioni online, videoconferenze, webinar, meetings"
+     language: it
   modal:
     create_role:
       create:
@@ -294,14 +350,14 @@ it:
       not_blank:
       title:
     create_room:
-      access_code:
-      access_code_placeholder:
-      auto_join: Aggiungimi automaticamente alla stanza
-      create: Crea Stanza
-      free_delete: Puoi eliminare la stanza in qualsiasi momento.
-      name_placeholder: Inserisci il nome della stanza...
-      not_blank: Il nome della stanza non può essere vuoto
-      title: Crea una nuova stanza
+      access_code: Codice di Accesso
+      access_code_placeholder: Genera un Codice di Accesso opzionale
+      auto_join: Aggiungimi automaticamente alla riunione
+      create: Crea Sala Riunione
+      free_delete: Puoi eliminare Sala Riunioni in qualsiasi momento.
+      name_placeholder: Inserisci il nome della Sala Riunioni...
+      not_blank: Il nome della riunione non può essere vuoto
+      title: Crea una nuova Sala
     delete_account:
       confirm: "Sicuro di voler eliminare questo account?"
       delete: Sono sicuro. Elimina questo account.
@@ -309,7 +365,7 @@ it:
       warning: Questa è la tua ultima possibilità. <b>Non</b> sarai in grado di recuperare i dati associati.
     delete_room:
       confirm: "Sicuro di voler eliminare %{room}?"
-      delete: "Sono sicuro, elimina la stanza."
+      delete: "Sono sicuro, elimina la riunione."
       keep: "Ripensandoci, penso che la terrò."
       warning:
       recording_warning:
@@ -324,17 +380,17 @@ it:
       forgot_password: "Hai dimenticato la password?"
     rename_recording:
     room_settings:
-      title: Impostazioni della stanza
-      update: Aggiorna Stanza
+      title: Impostazioni della Sala
+      update: Aggiorna Sala
       client: Seleziona il tipo di interfaccia
-      join_moderator:
-      mute: Silenzia utenti quando entrano nella stanza
-      require_approval:
-      start:
-      footer_text: Le impostazioni della stanza possono essere cambiate in qualsiasi momento.
+      join_moderator: Consenti agli utenti di partecipare come moderatori
+      mute: Silenzia utenti quando entrano nella Sala
+      require_approval: Richiedi l'approvazione del moderatore per partecipare
+      start: Consenti ad ogni utente di iniziare la riunione
+      footer_text: Le impostazioni della Sala possono essere cambiate in qualsiasi momento.
     rename_room:
-      name_placeholder: Inserisci il nome della nuova stanza...
-  name_update_success: Il nome della stanza è stato cambiato con successo!
+      name_placeholder: Inserisci il nome della nuova Sala...
+  name_update_success: Il nome della Sala è stato cambiato con successo!
   no_user_email_exists: Non esistono utenti con la email specificata. Controlla di averla inserita correttamente.
   omniauth_error: Si è verificato un errore con l'autenticazione omniauth. Prova ancora o contatta un amministratore!
   omniauth_specific_error:
@@ -359,7 +415,7 @@ it:
   recording:
     all_recordings: Tutte le registrazioni
     email: Registrazioni Email
-    no_recordings: "Questa stanza non ha %{inject} registrazioni."
+    no_recordings: "Questa Sala non ha %{inject} registrazioni."
     no_user_recordings: Non ci sono registrazioni al momento.
     no_matched_recordings: Nessuna registrazione corrisponde alla tua ricerca.
     recorded_on: "Registrato il %{date}"
@@ -405,11 +461,11 @@ it:
     pending: In attesa
     user: Utente
   room:
-    access_code_required: Prego immettere un codice valido per entrare nella stanza
-    create_room: Crea una stanza
-    create_room_error: Si è verificato un errore nella creazione della stanza
-    create_room_success: La stanza è stata creata correttamente
-    enter_the_access_code: Immetti il codice di accesso alla stanza
+    access_code_required: Prego immettere un codice valido per entrare nella Sala
+    create_room: Crea una Sala
+    create_room_error: Si è verificato un errore nella creazione della Sala
+    create_room_success: La Sala è stata creata correttamente
+    enter_the_access_code: Immetti il codice di accesso alla Sala
     invalid_provider:
     invited: Hai ricevuto un invito per partecipare
     invite_participants: Invita partecipanti
@@ -425,20 +481,20 @@ it:
       placeholder:
       no_recent_rooms:
       recent_rooms:
-      title: Entra in una stanza
-    no_sessions: Questa stanza non ha ancora una sessione attiva!
-    recordings: Registrazioni della stanza
-    room_limit: Hai raggiunto il numero massimo di stanze consentito
+      title: Entra in una Sala
+    no_sessions: Questa Sala non ha ancora una sessione attiva!
+    recordings: Registrazioni della Sala
+    room_limit: Hai raggiunto il numero massimo di sale consentito
     room_limit_exceeded:
     sessions: Sessioni
-    settings: Impostazioni Stanza
-    start: Avvia
-    unavailable: La stanza non è disponibile finché il proprietario non verifica il suo indirizzo email.
-    update_settings_error: Si è verificato un errore nell'aggiornamento dei dettagli della stanza
-    update_settings_success: Impostazioni della stanza aggiornate correttamente
+    settings: Impostazioni Sala
+    start: Entra in Riunione
+    unavailable: La Sala non è disponibile finché il proprietario non verifica il suo indirizzo email.
+    update_settings_error: Si è verificato un errore nell'aggiornamento dei dettagli della Sala
+    update_settings_success: Impostazioni della Sala aggiornate correttamente
     wait:
       message: Il meeting non è stato ancora avviato
-      auto: Verrai inserito nella stanza non appena il meeting avrà inizio.
+      auto: Verrai inserito nella Sala non appena il meeting avrà inizio.
   settings:
     account:
       fullname: Nome completo
@@ -451,7 +507,7 @@ it:
       title: Informazioni account
     delete:
       button: "Si, voglio eliminare il mio account."
-      disclaimer: "Se scegli di eliminare il tuo account, <b>NON</b> sarà possibile recuperarlo. Tutte le informazioni riguardo l'account, incluse impostazioni, stanze e registrazioni, verranno eliminate."
+      disclaimer: "Se scegli di eliminare il tuo account, <b>NON</b> sarà possibile recuperarlo. Tutte le informazioni riguardo l'account, incluse impostazioni, sale e registrazioni, verranno eliminate."
       subtitle: Elimina definitivamente l'account
       title: Elimina account
     password:
@@ -465,7 +521,7 @@ it:
   signup:
     password_confirm: Conferma Password
     subtitle: Crea un Account
-    title: Iscriviti
+    title: Registrati Gratis
     with: "Iscriviti con %{provider}"
   terms:
     accept: "Accetto %{href}"
@@ -484,3 +540,8 @@ it:
     signin: Effettua l'accesso al tuo account.
     title: Verifica la tua email
     verification: Verifica
+  warning:
+    message_1: EMERGENZA COVID-19
+    message_2: Informiamo gli utenti che in questo periodo, allo scopo di garantire il migliore servizio a tutti i nostri abbonati, ogni giorno verranno eseguite operazioni di manutenzione straordinaria sui nostri server alle ore 08:00, 13:00, e 19:00.
+    message_3: Consigliamo di terminare i vostri collegamenti un minuto prima degli orari indicati. Potrete riprenderli 5 minuti dopo gli orari indicati.
+    

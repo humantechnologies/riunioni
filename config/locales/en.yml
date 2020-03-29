@@ -160,7 +160,7 @@ en:
         username: Username
       title: Manage Users
   add_to_google_calendar: "Add to Google Calendar"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Riunioni.Online
   bigbluebutton_exception: Oops, there was an error when starting the meeting!
   cancel: Cancel
   cookies:
@@ -180,7 +180,7 @@ en:
   errors:
     bigbluebutton:
       help: Please make sure the proper steps have been taken. <a href="%{doc_link}">Learn more</a>
-      message: Invalid BigBlueButton Endpoint and Secret
+      message: Invalid Riunioni.Online Endpoint and Secret
       title: Server Error
     internal:
       message: Looks like something went wrong on our end.
@@ -193,10 +193,10 @@ en:
       contact_admin: If you are not an administrator, please contact one.
       continue: I'd like to stay using 1.0.
       notice: >
-        Greenlight encountered a database migration error.<br>
-        This may be because you haven't updated to Greenlight 2.0.
+        Riunioni.Online encountered a database migration error.<br>
+        This may be because you haven't updated to Riunioni.Online 2.0.
       upgrade: Show me how to upgrade to 2.0!
-      version: We've released a new version of Greenlight, but your database isn't compatible.
+      version: We've released a new version of Riunioni.Online, but your database isn't compatible.
     messages:
       blank: can't be blank
       too_short: is too short
@@ -207,7 +207,7 @@ en:
       inclusion: is not included in the list
     no_provider:
       message: The site you are trying to access is not enabled
-      help: Please contact your system administrator to setup Greenlight
+      help: Please contact your system administrator to setup Riunioni.Online
     not_found:
       message: Sorry! The page you are looking for does not exist.
       help: Is it possible its been removed?
@@ -221,30 +221,71 @@ en:
     unauthorized:
       message: You do not have access to this application
       help: If you believe this is a mistake, please contact your system administrator.
+    signup:
+       name: name not valid (can't be blank and max 256 chars)
+       email: email not valid (can't be blank, invalid or in use)
+       password: password not valid (min 6 characters)
+       confirm: password confirmation doesn't match password
+       terms: terms and condition shall be accepted
   expired_reset_token: Password reset link has expired!
   features:
-    title: Features
-    rooms: Personalized Rooms
-    recordings: Recording Management
-    designs: Custom Designs
-    authentication: User Authentication
+    title: Main Features
+    subtitle: "The Italian web conferencing and education server. You can create your own rooms to host sessions, or join your friends using a short and convenient link."
+    subtitle2: An essential tool for small and medium-sized companies business meetings, for distance learning professionals, for teachers and students who want to organize private lessons, repetitions or classrooms, for organizing courses and webinars.
+    rooms: Meetings
+    roomsdetails: Company and Professional Meetings, Online Lessons
+    recordings: Recordings
+    recordingsdetails: Meetings Recording and Criptography
+    designs: Video Webinars
+    designdetails: Video Courses, Training and Group Lessons
+    authentication: Screen Sharing
+    authdetails: Virtual Dashboard and Education Material Sharing
+    whytitle: Why use the Virtual Classrooms of Riunioni.Online
+    whypara1: If you are a teacher, a school or a company that provides training in the virtual classrooms of Riunioni.online you can host your individual and group lessons, organize webinars and seminars for students and professionals without making the participants move from home, school or own workstation.
+    whypara2: If you manage a company you can organize meetings or provide training and refresher courses to your employees directly in their location, even in different locations around the country, with a considerable optimization of execution times and reduction of costs for travel and logistics.
+    whypara3: You can also use our services to provide online technical support to the customers of your business, allowing you to connect by videoconference to request information and talk with an expert of your company, remotely anticipating the solution of some problems or allowing a more targeted intervention on the field.
+    whypara4: Riunioni.online makes easier to interact and communicate, to dialogue online with their students, to ask questions to the teachers. Facilitates the creation of a collaborative and integrated environment in your company, promotes the dissemination of information and educational material, allows you to save on costs.
+    share: Share with your friends
   footer:
-    powered_by: Powered by %{href}.
+    powered_by: "Copyright 2019:    %{href}."
+    ht: "HT Tecnologie Umanistiche s.r.l. - cf/p.iva 02160600991"
+    mail: info@tecnologie-umanistiche.it
+    phone: "+39 3357499489"
+    terms: Terms of Use
+    privacy: Privacy Policy
+    cookies: Cookies
+    info: About
+    faq: FAQ
+    contacts: Contacts
   forgot_password:
     subtitle: Forgot Password
     email: Email
     submit: Submit
   go_back: Go back
-  greenlight: Greenlight
+  go_home: Go to Rooms
+  greenlight: Riunioni.Online
   header:
     all_recordings: All Recordings
     dropdown:
       account_settings: Organization
+      info: Info
+      faq: FAQs
       help: Need help?
       home: Home
       settings: Profile
       signout: Sign out
   home_room: Home Room
+  ht: HT - Human Tecnologies
+  info:
+     contatti: Contacts
+     cookies: Cookies
+     faq: FAQ (Frequently Asked Questions)
+     help: Instructions
+     informazioni: Information
+     prezzi: Plans and Prices
+     privacy: Privacy Policy
+     termini: Term of Use
+     lorem: Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
   info_update_success: Information successfully updated.
   invalid_credentials: The email and password you entered did not match our records. Try again or click Forgot Password to reset your password.
   invalid_login_method: Login failed due to account mismatch. You need to log in with omniauth.
@@ -254,16 +295,17 @@ en:
       mailer:
         subject: 'has invited you to view a recording.'
         body: 'To view the recording, follow the link below:'
-        autogenerated: 'This e-mail is auto-generated by BigBlueButton.'
-        footer: 'BigBlueButton is an open source web conferencing system. For more information on BigBlueButton, see https://bigbluebutton.org/.'
+        autogenerated: 'This e-mail is auto-generated by Riunioni.Online.'
+        footer: 'Riunioni.Online is an open source web conferencing system. '
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to BigBlueButton.
-    video: Watch our tutorial on using Greenlight
+    about: "The Italian web conferencing and education server. You can create your own rooms to host sessions, or join your friends using a short and convenient link."
+    welcome: Welcome to Riunioni.Online
+    meetings: Meeting and Lessons Online
+    video: Discover Riunioni.Online features
     upgrade: Show me how to upgrade to 2.0!
-    version: We've released a new version of Greenlight, but your database isn't compatible.
+    version: We've released a new version of Riunioni, but your database isn't compatible.
   language_default: Default (browser language)
   ldap_error: Unable to connect to the LDAP server. Please check your LDAP configuration in the env file and ensure your server is running.
   login: Sign in
@@ -275,10 +317,10 @@ en:
         signin: To access your personal rooms, click the button below and sign in.
         signin_link: Sign In
         signup:
-          info: A new user has signed up to use Greenlight.
-          more-info: To allow this user to access Greenlight you must approve their account in organization settings.
+          info: A new user has signed up to use Riunioni.Online.
+          more-info: To allow this user to access Riunioni.Online you must approve their account in organization settings.
           admins_link: Visit the Organization Page
-          subject: New Greenlight User Sign Up
+          subject: New Riunioni.Online User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
         subject: Account Approved
         username: Your username is %{email}.
@@ -292,11 +334,11 @@ en:
         signup_info: To signup using your email, click the button below and follow the steps.
         signup_link: Sign Up
         signup:
-          info: A user that was invited has signed up to use Greenlight.
+          info: A user that was invited has signed up to use Riunioni.Online.
           admins_link: Visit the Organization Page
-          subject: New Greenlight User Sign Up
+          subject: New Riunioni.Online User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
-        subject: Invitation to join BigBlueButton
+        subject: Invitation to join Riunioni.Online
         username: Your username is %{email}.
       password_reset:
         title: 'Password reset'
@@ -322,6 +364,17 @@ en:
     window_alert: Maintenance window scheduled for %{date}
   max_concurrent: The maximum number of concurrent sessions allowed has been reached!
   merged: Merged
+  meta:
+     hometitle: "Riunioni.Online, Online Meetings and Lessons"
+     homedescription: "Virtual Rooms for meetings and lessons, provided with virtual blackboard with drawings tools, to load presentaqtions and multimedia contents, screen sharing."
+     homekeywords: "meetings, lessons, online lessons, videoconferences, webinar, e-learning, teachers, students, virtual rooms, screen sharing"
+     staticpagestitle: "Riunioni.Online"
+     staticpagesdescription: "Virtual Rooms for meetings and lessons, provided with virtual blackboard with drawings tools, to load presentaqtions and multimedia contents, screen sharing."
+     staticpageskeywords: "meetings, lessons, online lessons, videoconferences, webinar, virtual rooms, screen sharing"
+     title: "Riunioni.Online"
+     description: "Virtual Rooms for meetings and lessons, provided with virtual blackboard with drawings tools, to load presentaqtions and multimedia contents, screen sharing."
+     keywords: "meetings, online lessons, videoconferences, webinar"
+     language: en
   modal:
     create_role:
       create: Create a new Role
@@ -556,3 +609,7 @@ en:
     signin: Please sign in to access your account.
     title: Verify your email
     verification: Verification
+  warning:
+    message_1: EMERGENZA COVID-19
+    message_2: Informiamo gli utenti che in questo periodo, allo scopo di garantire il migliore servizio a tutti i nostri abbonati, ogni giorno verranno eseguite operazioni di manutenzione straordinaria sui nostri server alle ore 08:00, 13:00, e 19:00.
+    message_3: Consigliamo di terminare i vostri collegamenti un minuto prima degli orari indicati. Potrete riprenderli 5 minuti dopo gli orari indicati.   
