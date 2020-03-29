@@ -68,4 +68,7 @@ app/views/layouts/application.html.erb   (aggiunti metatags, sistemato link ad /
 app/views/rooms/components/_room_event.html.erb   (prima app/views/shared/rooms/_room_event.html.erb inserito warning)
 app/views/rooms/show.html.erb                     (inserito warning, ridotte dimensioni nome sale e bottone entra in riunione)
 
+config/locales/it.yml
+config/locales/en.yml
+
 
