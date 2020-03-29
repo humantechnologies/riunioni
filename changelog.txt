@@ -1,18 +1,10 @@
 
-cd /mnt/c/code/riunioni/
-bin/rails server --port=3000
-
-
-
-versione 1.0.0 modifiche dal 28/03/2020 al 28/03/2020 su versione master (greenlight release 2.5.2)
+versione 1.0.0 modifiche dal 28/03/2020 al 29/03/2020 su versione master (greenlight release 2.5.2)
 
 1) creato  .env  solo in ambiente development  (configurato server BBB e abilitata creazione accounts, non va copiato)
 
-2) generate pagine statiche con comando unix: 
-
-rails generate controller Info termini privacy cookies prezzi informazioni help faq contatti
-
-crea i files: 
+2) generate pagine statiche: 
+creati i files: 
   app/views/info
   app/views/info/termini.html.erb
   app/views/info/privacy.html.erb
@@ -27,10 +19,9 @@ crea i files:
   app/assets/javascripts/info.coffee
   app/assets/stylesheets/info.scss
 
-modifica anche il file  config/route.rb aggiungedo dei percorsi che poi vanno modificati 
 config/routes.rb    (modificati percorsi per le pagine statiche del nuovo controller Info)
   
-tutti i file sotto wiews/info vanno aggiornati per caricare i testi da visualizzare nel formato corretto
+tutti i file sotto wiews/info sono aggiornati per caricare i testi da visualizzare nel formato corretto
 app/views/info/*.erb
 
 3) aggiunta la directory con i testi delle pagine statiche (uno per pagina)  e terms.md
@@ -76,57 +67,5 @@ app/views/layouts/application.html.erb   (aggiunti metatags, sistemato link ad /
 
 app/views/rooms/components/_room_event.html.erb   (prima app/views/shared/rooms/_room_event.html.erb inserito warning)
 app/views/rooms/show.html.erb                     (inserito warning, ridotte dimensioni nome sale e bottone entra in riunione)
-
-
-
-
-DA VERIFICARE
-
-in app/views/main/index.html.erb  verificare un pezzo di script in gl se serve ancora.
-in app/components/shared/_features.html.erb completare bottoni social
-
-verificare se servono ancora:
-
-app/views/users/new.html.erb  vedere se serve ancora    (migliorata leggibilità e responsiveness cambiando il div del form, aggiunto mb-2 nei pulsanti per dare margine bottom quando si stringe la pagina)
-app/views/shared/rooms/_room_event.html.erb   (diviso form su due righe e modificata larghezza colonne e inserito warning)
-app/views/rooms/join.html.erb                 (diviso input e bottone su due righe per migliorare rendering)
-
-
-per gestire /b ma forse non serve
-env                                   (impostate costanti per mailer e rewrited_host)
-app/controllers/application_controller.rb       modificata chiamata request.base_url)   
-app/controllers/password_reset_controller.rb   (modificata chiamata request.base_url)
-app/controllers/user_controller.rb             (modificata chiamata request.base_url)
-
-app/views/user_mailer/password_reset.html.erb
-app/views/user_mailer/password_reset.text.erb
-
-app/views/users/verify.html.erb               (modificati messaggi di verifica mail)
-
-.env   (inserire allow_mail_verification true e mail_sender)
-
-app/views/shared/settings/_account.html.erb (ottimizzato layout per mobile)
-
-versione 1.0.5 modifiche dal 15/02/2019 al 15/02/2019 su versione master (greenlight release 2.0.5)
-
-app/views/shared/settings/_account.html.erb (ottimizzato layout per mobile)
-app/views/users/terms.html.erb              (sistemata responsiveness del layout)
-
-app/views/shared/_sessions.html.erb         (sistemato scroll tabella per mobile)
-
-
-versione 1.0.4 modifiche dal 04/02/2019 al 14/02/2019 su versione master (greenlight release 2.0.5)
-
-app/controllers/application_controller.rb   (impostata "it" come lingua di default)
-
-app/models/user.rb                    (aggiunta mail utente obbligatoria nelle regole di validazione, non può essere blank)
-
-
-nel db è previsto un campo dove mettere l'url della immagine, ma devo capire come caricarla
-
-
-Jenkinsfile               (def appName = 'Riunioni' e def greenlightVersion = 'v1')
-
-
 
 
