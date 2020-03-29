@@ -11,31 +11,95 @@
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# GT20200328 layout revised, added google analitics script
 %>
 
 
+<a id="info"></a>
 <div class="container mt-8 mb-6 text-center">
 
-  <h2 class="mb-6">Greenlight <%= t("features.title") %></h2>
+  <h2 class="mb-6"><%= t("features.title") %></h2>
+  
+  <p class="lead col-lg-12 col-sm-12 display-4"><%= t("features.subtitle") %></p>
+  <p class="lead col-lg-12 col-sm-12 display-4 mb-8"><%= t("features.subtitle2") %></p>
 
-  <div class="row feature-stamp">
+  
+  <div class="row feature-stamp mb-4 mt-6">
     <div class="col-lg-3 col-md-6">
       <div class="feature-item">
-        <div class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></div>
+        <div class="stamp bg-primary"><i class="fas fa-users fa-2x"></i></div>
         <h4 class="mt-4"><%= t("features.rooms") %></h4>
+        <p class="lead col-sm-12 display-4"><%= t("features.roomsdetails") %></p>
       </div>
+    </div>                                            
+    <div class="col-lg-3 col-md-6">
+      <span class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></span>
+      <h4 class="mt-4"><%= t("features.designs") %></h4>
+        <p class="lead col-sm-12 display-4"><%= t("features.designdetails") %></p>
     </div>
     <div class="col-lg-3 col-md-6">
       <span class="stamp bg-primary"><i class="fas fa-film fa-2x"></i></span>
       <h4 class="mt-4"><%= t("features.recordings") %></h4>
+        <p class="lead col-sm-12 display-4"><%= t("features.recordingsdetails") %></p>
     </div>
     <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-pencil-alt fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.designs") %></h4>
-    </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-door-open fa-2x"></i></span>
+      <span class="stamp bg-primary"><i class="fas fa-desktop fa-2x"></i></span>
       <h4 class="mt-4"><%= t("features.authentication") %></h4>
+        <p class="lead col-sm-12 display-4"><%= t("features.authdetails") %></p>
     </div>
   </div>
+ 
+<!--  
+  <h3 class="mt-8 mb-8"><%= t("features.whytitle") %></h3>
+  
+  <div class="row feature-stamp mb-4">
+    <div class="col-lg-3 col-md-6">
+      <div class="feature-item">
+        <div class="stamp bg-whyfeats"><i class="fas fa-graduation-cap fa-2x"></i></div>
+        <p class="lead col-sm-12 display-4 mt-4"><%= t("features.whypara1") %></p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <span class="stamp bg-whyfeats"><i class="fas fa-user-tie fa-2x"></i></span>
+        <p class="lead col-sm-12 display-4 mt-4"><%= t("features.whypara2") %></p>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <span class="stamp bg-whyfeats"><i class="fas fa-medkit fa-2x"></i></span>
+        <p class="lead col-sm-12 display-4 mt-4"><%= t("features.whypara3") %></p>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <span class="stamp bg-whyfeats"><i class="fas fa-piggy-bank fa-2x"></i></span>
+        <p class="lead col-sm-12 display-4 mt-4"><%= t("features.whypara4") %></p>
+    </div>
+  </div>
+ -->   
+<!--  
+  <h3 class="mt-8 mb-6"><%= t("features.share") %></h3>
+
+  <div class="row feature-stamp mb-6 offset-lg-3 col-lg-6">
+    <div class="col-lg-3 col-md-6">
+      <span class=""><i class="fas fa-envelope-square fa-5x bg-socialicon"></i></span>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <span class=""><i class="fab fa-facebook-square fa-5x bg-socialicon"></i></span>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <span class=""><i class="fab fa-twitter-square fa-5x bg-socialicon"></i></span>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <span class=""><i class="fab fa-linkedin fa-5x bg-socialicon"></i></span>
+    </div>
+  </div>   
+-->
 </div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134835581-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134835581-1');
+</script>
+
