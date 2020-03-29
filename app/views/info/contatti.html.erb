@@ -1,0 +1,19 @@
+ <div class="container mt-8 mb-6 ">
+
+ <!-- <%= render "shared/components/subtitle", subtitle: t("info.contatti"), search: false %>   -->
+
+  <h2 class="mb-6"><%= t("info.contatti") %></h2>
+  
+  <% filename = "#{Rails.root}/config/info/it_contatti.md"
+          
+     filecontent = if File.exist?(filename) 
+       File.read(filename)
+     else
+       false
+   end   %>       
+  
+   <% if filecontent %>
+      <%= markdown(filecontent) %>
+   <% end %>
+</div>
+

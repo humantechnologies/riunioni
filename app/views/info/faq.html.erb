@@ -1,0 +1,16 @@
+ <div class="container mt-8 mb-6 ">
+
+  <h2 class="mb-6"><%= t("info.faq") %></h2>
+  
+  <% filename = "#{Rails.root}/config/info/it_faq.md"
+          
+     filecontent = if File.exist?(filename) 
+       File.read(filename)
+     else
+       false
+   end   %>       
+  
+   <% if filecontent %>
+      <%= markdown(filecontent) %>
+   <% end %>
+</div>
