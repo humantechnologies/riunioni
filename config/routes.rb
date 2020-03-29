@@ -17,6 +17,26 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 
 Rails.application.routes.draw do
+
+  # info routes.  GT20200328 modificate routes per le pagine info
+  # get 'info/termini'
+  # get 'info/privacy'
+  # get 'info/cookies'
+  # get 'info/prezzi'
+  # get 'info/informazioni'
+  # get 'info/help'
+  # get 'info/faq'
+  # get 'info/contatti'
+  
+  get '/termini', to: 'info#termini'
+  get '/privacy', to: 'info#privacy'
+  get '/cookies', to: 'info#cookies'
+  get '/prezzi', to: 'info#prezzi'
+  get '/informazioni', to: 'info#informazioni'
+  get '/help', to: 'info#help'
+  get '/faq', to: 'info#faq'
+  get '/contatti', to: 'info#contatti'
+  
   get '/health_check', to: 'health_check#all'
 
   # Error routes.
