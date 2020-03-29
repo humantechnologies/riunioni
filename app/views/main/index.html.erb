@@ -11,21 +11,92 @@
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+
+# GT20200328 added style homebackground in main div
 %>
 
-<div class="background">
-  <div class="container pt-9 pb-8">
+<style>
+ 
+.homebackground{
+ background-color: #F5F7FB;
+ background: url("strumenti_per_videoconferenze.jpg"); 
+ background-repeat: no-repeat center top;
+ background-size: cover;
+ background-position: center;
+ width: 100%; height: auto; top: 0; left: 0;
+ z-index: -1;
+ }
+
+.btn-outline-primary_inhome {
+    color: #fff !important; 
+    background-color: #fd7822;
+    border-color: #fd7822;
+}
+
+.btn_inhome {
+     font-size: 1.2125rem;
+}
+                                  
+.bg-whyfeats  {
+    background-color: #467fcf;  !important;  /* #fd7822  */
+}
+
+.bg-socialicon  {
+    color: #467fcf;  !important;  /* #fd7822  */
+}
+
+.whatapp_btn_display {
+   display: none;
+}   
+
+@media (max-width: 768px) {
+ .whatapp_btn_display {
+   display: inline;
+ }   
+}
+
+</style>
+
+<div class="homebackground">
+  <div class="container pt-9 pb-6">
     <div class="row">
       <div class="col-md-12 col-sm-12 text-center">
-        <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
-        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
-        <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
-          <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4>
+        <h1 id="main-text" class="display-4 mb-4" style="color: #fff;">  <!-- color: #467fcf -->
+      
+          <%= t("landing.welcome").html_safe %></h1>
+
+          <p class="lead offset-lg-2 col-lg-8 col-sm-12 "></p>
+
+          <h2 id="meetings" class="mb-8" style="color: #fff;">
+            <%= t("landing.meetings").html_safe %></h2>
+
+          <p class="lead offset-lg-2 col-lg-8 col-sm-12 mb-6"></p>
+
+				<% if current_user %>
+        						<%= link_to t("go_home"), current_user.main_room, :rel => "nofollow", :class => "btn btn-pill btn-outline-primary_inhome btn_inhome mx-2 mb-2" %>
+				<% else %>
+          <% if Rails.configuration.omniauth_bn_launcher %>
+                    <%= link_to t("login"), omniauth_login_url(:bn_launcher), :rel => "nofollow", :class => "btn btn-pill btn-outline-primary mx-2" %>
+          <% elsif Rails.configuration.omniauth_ldap %>
+        						<%= link_to t("login"), omniauth_login_url(:ldap), :rel => "nofollow", :class => "btn btn-pill btn-outline-primary mx-2" %>
+        	<% else %>
+                    <%= link_to t("login"), signin_path, :rel => "nofollow", :class => "btn btn-pill btn-outline-primary_inhome btn_inhome mx-2 mb-2" %>
+           <% end %>
+        
+        	<% if allow_user_signup? %>
+        						<%= link_to t("signup.title"), signup_path, :rel => "nofollow", :class => "btn btn-pill btn-outline-primary_inhome btn_inhome mx-2 mb-2" %>
+          <% end %>
+				<% end %>
+
+
+       <%= link_to "#info", target: "" do %>      
+          <h4 class="mt-6" style="color: #fff;"><%= t("landing.video") %></h4>
         <% end %>
       </div>
 
     </div>
   </div>
 </div>
+
 
 <%= render "main/components/features" %>
