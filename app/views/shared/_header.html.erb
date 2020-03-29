@@ -45,7 +45,8 @@
           <div class="dropdown">
             <a href="#" class="nav-link pr-0" data-toggle="dropdown">
               <% if current_user.image.blank? || !valid_url?(current_user.image) %>
-                <span class="avatar"><%= current_user.name.first %></span>
+                <!-- GT20200328 <span class="avatar"><%= current_user.name.first %></span>  -->
+                <span class="avatar" style="background-image: url(<%= "/users/user_placeholder.jpg" %>)"></span>
               <% else %>
                 <span id="user-avatar" class="avatar d-none"><%= current_user.name.first %></span>
                 <%= image_tag(current_user.image, id: "user-image", class: "avatar") %>
@@ -77,14 +78,24 @@
                 <% end %>
               <% end %>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="http://docs.bigbluebutton.org/install/greenlight-v2.html" target="_blank" rel="noopener">
+							<a class="dropdown-item" href="/faq">
+								<i class="dropdown-icon fas fa-question-circle"></i> <%= t("header.dropdown.faq") %>
+							</a>
+
+              <% # GT20200328 <a class="dropdown-item" href="http://docs.bigbluebutton.org/install/greenlight-v2.html" target="_blank" rel="noopener">  %>
+            <!--  <a class="dropdown-item" href="/help" target="_blank" rel="noopener">
                 <i class="dropdown-icon far fa-question-circle"></i> <%= t("header.dropdown.help") %>
-              </a>
+              </a>    -->
+							<a class="dropdown-item" href="/informazioni">
+								<i class="dropdown-icon fas fa-info-circle"></i> <%= t("header.dropdown.info") %>
+							</a>
               <% if Rails.configuration.report_issue_url.present? %>
-                <a class="dropdown-item" href="<%= Rails.configuration.report_issue_url %>" target="_blank" rel="noopener">
-                  <i class="dropdown-icon fas fa-exclamation mr-3"></i><%= t("errors.internal.report") %>
+              <!-- GT20200328  <a class="dropdown-item" href="<%= Rails.configuration.report_issue_url %>" target="_blank" rel="noopener"> -->
+                <a class="dropdown-item" href="/contatti" rel="noopener">
+                  <i class="dropdown-icon fas fa-envelope mr-3"></i><%= t("errors.internal.report") %>
                 </a>
               <% end %>
+              <div class="dropdown-divider"></div>
               <%= link_to logout_path, class: "dropdown-item" do %>
                 <i class="dropdown-icon fas fa-sign-out-alt"></i> <%= t("header.dropdown.signout") %>
               <% end %>

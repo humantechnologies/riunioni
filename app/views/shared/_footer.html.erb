@@ -11,10 +11,42 @@
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# GT20200328 modified footer and added links
 %>
 
-<footer class="footer pt-3">
-  <p class="text-center mb-1"><%= t("footer.powered_by", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %></p>
-</footer>
+<style>
 
+.footer a:not(.btn) {
+    color: #6e7687 !important;
+}
+
+</style>
+
+<footer class="footer pt-3">
+  <p class="text-center mb-1">
+     <%= link_to(t("footer.ht"), "http://www.tecnologie-umanistiche.it/", target: "_blank", :rel => "nofollow").html_safe %>&nbsp;&nbsp;-&nbsp;&nbsp;
+     <i class="fas fa-envelope fa-1x"></i>&nbsp;&nbsp;<a href="mailto:info@tecnologie-umanistiche.it" rel="nofollow"><%= t("footer.mail") %></a>
+     &nbsp;&nbsp;&nbsp;<i class="fas fa-headphones fa-1x"></i>&nbsp;&nbsp;<%= t("footer.phone")%>
+  </p>
+
+  <p class="text-center mb-4">
+     <%= link_to(t("footer.terms"), "/terms").html_safe %>
+     &nbsp;|&nbsp;
+     <%= link_to(t("footer.privacy"), "/privacy").html_safe %>
+     &nbsp;|&nbsp;
+     <%= link_to(t("footer.cookies"), "/cookies").html_safe %>
+     &nbsp;|&nbsp;
+     <%= link_to(t("footer.informazioni"), "/informazioni").html_safe %>
+     &nbsp;|&nbsp;
+     <%= link_to(t("footer.faq"), "/faq").html_safe %>
+     &nbsp;|&nbsp;
+     <%= link_to(t("footer.contacts"), "/contatti").html_safe %>
+      
+     <a href="https://www.linkedin.com/company/ht-tecnologie-umanistiche-srl/about/" target="_blank"><i class="fab fa-linkedin fa-2x mr-4 mb-3" style="float:right"></i></a>
+     <a href="https://twitter.com/scuola_digitale" target="_blank"><i class="fab fa-twitter-square fa-2x mr-1 mb-3" style="float:right"></i></a>
+     <a href="https://www.facebook.com/archivium.scuola.digitale" target="_blank"><i class="fab fa-facebook-square fa-2x mr-1 mb-3" style="float:right"></i></a>
+     <a class="whatapp_btn_display" href="https://wa.me/393357499489?text=Buongiorno,%20vorrei%20informazioni%20su%20Riunioni.online"><i class="fab fa-whatsapp-square fa-2x mr-1 mb-3" style="float:right"></i></a>
+     <a href="mailto:info@tecnologie-umanistiche.it"><i class="fas fa-envelope-square fa-2x mr-1 mb-3" style="float:right"></i></a>
+  </p> 
+  
 <%= render "shared/components/cookie_warning" %>
