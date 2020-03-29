@@ -1,0 +1,26 @@
+
+####Quali strumenti occorrono per usare il sistema di Web Conferencing Riunioni.Online?
+Per accedere ai nostri Servizi il modo più semplice e immediato è utilizzare un Browser sul proprio PC o Tablet, strumenti dotati di una webcam incorporata o esterna. Non è richiesta l'installazione di alcun software addizionale sui vostri strumenti. E' sconsigliato l'uso di telefoni cellulari per riunioni professionali, in quanto le dimensioni dello schermi non consentirebbero di utilizzare al meglio gli strumenti come la Lavagna e visualizzare in maniera adeguata le presentazioni. Per una migliore qualità dell’audio è preferibile utilizzare un head-set (cuffie con microfono) o in altermativa anche gli auricolari per telefoni cellulari. Per organizzare o partecipare ad  una videoconferenza ci si dovrà poi collegare all'aula virtuale tramite il link che vi è stato comunicato ed effettuare il login al vostro account.
+
+####Da cosa dipende la Qualità della Comunicazione?
+La qualità della comunicazione dipende da diversi fattori, alcuni dei quali possono dipendere dagli strumenti che usi e da come li usi. Tutte queste cose possono essere controllate e migliorate con semplici accorgimenti. In generale parametri che possono influenzare la qualità della comunicazione sono:
+<br>•	Il numero di partecipanti alla sessione: 2-20-200, all'aumentare del numero dei partecipanti si possono creare dei problemi, per esempio problemi legati al coordinamento tra chi parla e chi ascolta, alla presenza di troppi microfoni  accesi in contemporanea, a quante webcam sono condivise. In una riunione affollata è importante che il moderatore tenga sotto controllo tutti questi parametri per migliorare l'esperienza di tutti.
+<br>•	La velocità di comunicazione del tuo PC (banda in upload e download) che dipende dalla tua connessione ad Internet. Per una buona qualità del Servizio dovresti avere una connessione ad Internet veloce. Una ccortezza in caso di problemi di velocità può essere per esempio evitare di inviare il proprio video se non necessario, utikizzando la sola modalità di ascolto.
+<br>•	I dispositivi che usi: PC o Tablet, webcam integrata o esterna, microfono integrato, cuffie. Sistemi di bassa qualità possono creare problemi di echo, distorsioni, fruscii. Il set di cuffie e microfono con collegamento USB è da preferire per avere una migliore qualità dell'audio. Meglio evitare di eccedere con il volume per evitare effetti eco e distorsioni.
+<br>•	Il browser che utilizzi: I browser possono avere protocolli di comunicazione diversi. Alcuni protocolli hanno prestazioni migliori per questo tipo di Servizio. Utilizzate un browser che supporti il protocollo WebRTC (es. FireFox) per ottenere migliori prestazioni audio.
+<br>•	L’utilizzo di altri programmi in background toglie risorse ai Servizi. E' preferibile che i programmi non necessari siano terminati prima di iniziare una videoconferenza.
+
+####Come faccio ad invitare i partecipanti alla riunione
+Invitare i partecipanti è semplicissimo, basta inviare loro il link della tua Aula Personale. Con quel link una volta registrati accederanno direttamente alla riunione se tu sei collegato.
+
+####Quanto costa utilizzare un servizio di Web Conferencing ?
+Nella modalità base il nostro Servizio è gratuito. Per esigenze più articolate è possibile ad accedere ai nostri Servizi a pagamento costruendo modularmente il proprio Piano in base alle specifiche esigenze. Probabilmente immaginate che questi sistemi di videoconferenza abbiano dei costi elevati, ma è anche importante prima di tutto porsi sempre un'altra domanda: “Quanto si risparmia con la videoconferenza professionale”? Se si adotta questo punto di vista, è più facile paragonare i costi ed il tempo impegnato in un corso che richiede per esempio una trasferta Milano-Roma, compresiva di treno, albergo, sala riunione con l'affitto delle nostre sale virtuali per una videoconferenza nelle due città. Il risparmio sarà evidente, può arrivare anche all’80%. Se poi si decide di acquistare il nostro servizio di videoconferenza in abbonamento utilizzabile dal proprio pc, tablet o smartphone dove e quando si vuole, il costo diventa davvero irrisorio. Ecco perché non ha molto senso parlare di costi del web conferencing, saranno sempre competitivi rispetto ai metodi di riunione in presenza. Lo stesso vale per studenti e docenti nella stessa città. Non dovendo muoversi da dove ci si trova avrete sempre un risparmio di costi ed una ottimizzazione del tempo. I Servizi più avanzati non sono gratuiti ma il suo piccolo prezzo è ampiamente compensato dai vantaggi che offre ed è alla portata di chiunque.
+ 
+###Quali sono le regole di Galateo per le Videoconferenze?
+Partendo dal dress code alle modalità di interazione con i propri interlocutori, le regole di educazione e di buon senso che si seguono negli incontri di lavoro tradizionali valgono anche per quelli che si svolgono in videoconferenza. A queste regole si aggiungono alcuni accorgimenti tecnici che è bene osservare per una videoconferenza che risulti sempre professionale e gradevole per i propri interlocutori: assenza di rumori che provengono dall’ambiente, buona illuminazione e il più possibile frontale, inquadratura centrata sul proprio viso, posizione eretta e sguardo sempre rivolto in direzione della webcam.
+
+
+
+
+
+
