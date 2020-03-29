@@ -13,6 +13,18 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
+<% # GT20200328 input url lenght modified, title dimension reduced %>
+<style>
+.invite-link-input {
+    width: auto;
+    min-width: 50%;
+}
+
+.start-button {
+    font-size: 18px !important;
+}
+</style>
+
 <% exceeds_limit = current_room_exceeds_limit(@room)%>
 <% if exceeds_limit%>
   <div class="alert alert-danger alert-dismissible text-center mb-0">
@@ -21,14 +33,24 @@
 <% end %>
 <div class="background pb-1">
   <div class="container">
-    <div class="row pt-7 pt-sm-9">
+  
+   <!-- GT20200328 inserito warning   -->
+     <div class="row">
+        <div class="col-lg-12 col-sm-12 mt-8">
+           <h4 class="text-left"><%= t("warning.message_1") %></h4>
+           <h5 class="text-left"><%= t("warning.message_2") %></h5>
+           <h5 class="text-left"><%= t("warning.message_3") %></h5>
+        </div>  
+    </div> 
+      
+    <div class="row pt-6">
       <div class="col-lg-8 col-sm-12">
         <div id="room-title" class="display-3 form-inline <%= 'edit_hover_class' if current_user.main_room != @room %>" data-path="<%= update_settings_path(@room) %>">
           <% if current_user.main_room == @room %>
-            <h1 contenteditable=false id="user-text" class="display-3 text-left mb-3 font-weight-400"><%= @room.name %></h1>
+            <h1 contenteditable=false id="user-text" class="display-4 text-left mb-3 font-weight-400"><%= @room.name %></h1>
             <a class="disable-click"><i class="fas fa-home align-top home-indicator ml-2"></i></a>
           <% else %>
-            <h1 contenteditable=false id="user-text" class="display-3 text-left mb-3 font-weight-400"><%= @room.name %></h1>
+            <h1 contenteditable=false id="user-text" class="display-4 text-left mb-3 font-weight-400"><%= @room.name %></h1>
             <a><i id="edit-room" class="fa fa-edit align-top home-indicator ml-2" data-edit-room="<%= @room.uid %>"></i></a>
           <% end %>
         </div>
