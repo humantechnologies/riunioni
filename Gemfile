@@ -13,7 +13,7 @@ gem 'rails', '~> 5.2.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.12'
 
-# Use a sqlite database in test and development.
+# Use a sqlite database in production.
 gem 'sqlite3', '~> 1.3.6'
 
 # Use SCSS for stylesheets
