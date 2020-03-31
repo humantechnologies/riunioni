@@ -34,16 +34,16 @@
 <div class="background pb-1">
   <div class="container">
   
-   <!-- GT20200328 inserito warning   -->
+   <!-- GT20200328 inserito warning   
      <div class="row">
         <div class="col-lg-12 col-sm-12 mt-8">
            <h4 class="text-left"><%= t("warning.message_1") %></h4>
            <h5 class="text-left"><%= t("warning.message_2") %></h5>
            <h5 class="text-left"><%= t("warning.message_3") %></h5>
         </div>  
-    </div> 
+    </div>    -->
       
-    <div class="row pt-6">
+    <div class="row pt-9">
       <div class="col-lg-8 col-sm-12">
         <div id="room-title" class="display-3 form-inline <%= 'edit_hover_class' if current_user.main_room != @room %>" data-path="<%= update_settings_path(@room) %>">
           <% if current_user.main_room == @room %>
