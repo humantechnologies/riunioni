@@ -11,15 +11,17 @@
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# GT20200405 aggiunto div style height=auto e tolto padding bottom. aggiunto link a cookie policy
 %>
 
   <% if cookies && cookies['cookie_consented'] != 'true' %>
-    <div class="cookies-banner fixed-bottom text-center d-inline-block">
-      <div class="cookies-banner-content py-3">
+    <div class="cookies-banner fixed-bottom text-center d-inline-block" style="height:auto">
+      <div class="cookies-banner-content pt-3" style="height=auto">
         <span class="cookies-warning-text pr-5">
           <%= t("cookies.cookie_info") %>
         </span>
         <span class="cookies-warning-button d-inline-block">
+          <button onclick="window.location.href='/cookies'" class="btn customBtn bg-primary ml-3" style="float:right">cookie policy</button>
           <button id="cookies-agree-button" class="btn customBtn bg-primary"><%= t("cookies.cookie_button") %></button>
         </span>
       </div>
