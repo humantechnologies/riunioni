@@ -1,8 +1,8 @@
-Efficacia: 30 gennaio 2019
+Efficacia: 05 Aprile 2020
 
-#### IMPORTANTE, LEGGI ATTENTAMENTE: IL TUO UTILIZZO E L'ACCESSO AL SITO WEB Riunioni.ONLINE E AI PRODOTTI E SERVIZI E SOFTWARE ASSOCIATI (COLLETTIVAMENTE, I "SERVIZI") SONO CONDIZIONATI ALLA CONFORMITÀ E ALL'ACCETTAZIONE DI QUESTI TERMINI. SI PREGA DI LEGGERE ATTENTAMENTE I TERMINI PRIMA DI ACCETTARE.
+IMPORTANTE, Leggi Attentamente: Il tuo utilizzo e l'accesso al sito web Riunioni.online ed ai prodotti e servizi e software associati (collettivamente, i "Servizi") sono condizionati alla conformità ed accettazione di questi termini. Si prega di leggere attentamente i termini prima di accettare.
 
-#### FACENDO CLIC SU / CLICCANDO SU "ACCETTO", ACCEDENDO AL SITO WEB Riunioni.ONLINE O UTILIZZANDO I SERVIZI Riunioni.ONLINE ACCETTI DI ESSERE VINCOLATO DA QUESTI TERMINI E CONDIZIONI E TUTTI GLI ANNESSI, I MODULI DI ORDINE E LE POLITICHE DEL SITO ("L'ACCORDO"). I SERVIZI Riunioni.ONLINE SONO DISPONIBILI SOLO A PERSONE CHE SONO LEGALMENTE IDONEE AD ESSERE VINCOLATE DA QUESTI TERMINI DI SERVIZIO.
+Cliccando su "ACCETTO", accedento al sito web Riunioni.onine o utilizzano i Servizi accetti di essere vincolato da questi termini e condizioni e tutti gli annessi, i moduli di ordine e le politiche del sito. I Servizi Riunioni.online sono disponibili solo a persone legalmente idonee ad essere vincolate da questi termini di servizio.
 
 Riunioni.online fornirà i Servizi e l'utente potrà accedere e utilizzare i Servizi, in conformità con il presente Accordo. Se si ordinano i Servizi tramite una pagina di registrazione online o un modulo d'ordine, questi possono contenere ulteriori termini e condizioni e informazioni relative ai Servizi che si stanno ordinando. Salvo quanto diversamente stabilito espressamente in tali termini e condizioni aggiuntivi applicabili al Servizio specifico che si sceglie di utilizzare, tali termini aggiuntivi sono incorporati nel presente Accordo in relazione all'utilizzo del Servizio da parte dell'utente.
 
