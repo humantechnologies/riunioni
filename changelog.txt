@@ -3,9 +3,12 @@ versione 1.0.5 modifiche dal 05/04/2020 al 05/04/2020 su versione master (greenl
 app/wiews/admins/server_rooms.html.erb               (aggiornato Js per visualizzazione stato sale)
 app/controllers/application_controller.rb            (impostata "it" come lingua di default, dovrebbe sistemare anche i meta delle condivisioni)
 app/views/shared/components/_cookie_warning.html.erb (sistemata visualizzazione div e pulsante accettazione,aggiunto link a cookie policy)
+app/views/layout/application.html.erb                (corretto link meta og:image)
  
 config/terms.md                                       (modificata parte iniziale del testo)
 config/info/it_termini.md                             (modificata parte iniziale del testo)
+
+config/locales/en.yml
 
 
 versione 1.0.4 modifiche dal 31/03/2020 al 05/04/2020 su versione master (greenlight release 2.5.2)
