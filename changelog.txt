@@ -1,4 +1,11 @@
 
+versione 1.0.4 modifiche dal 31/03/2020 al 05/04/2020 su versione master (greenlight release 2.5.2)
+
+
+app/wiews/main/components/_features.html.erb      (rimosso codice analitics)
+app/wiews/admins/components/server_rooms.html.erb  (inserito Js per visualizzazione stato sale)
+
+
 versione 1.0.0 modifiche dal 28/03/2020 al 29/03/2020 su versione master (greenlight release 2.5.2)
 
 1) creato  .env  solo in ambiente development  (configurato server BBB e abilitata creazione accounts, non va copiato)
