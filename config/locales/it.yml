@@ -135,7 +135,7 @@ it:
   bigbluebutton_exception: "Oops, c'è stato un errore nell'avvio del meeting!"
   cancel: Annulla
   cookies:
-    cookie_info: "Questo sito utilizza cookies anche di terze parti per fornirti un servizio migliore e personalizzato, per ricordare se sei hai effetuato il login, per effetturare un login sicuro e collezionare statistiche per ottimizare il funzionamento del sito. Se vuoi saperne di più clicca su informazioni. Chiudendo questo banner, scorrendo questa pagina o cliccando su qualunque suo elemento accetti l'utilizzo dei cookie da parte nostra. Per negare il consenso abbandona il sito."
+    cookie_info: "Questo sito utilizza cookies anche di terze parti per fornirti un servizio migliore e personalizzato, per ricordare se sei hai effetuato il login, per effetturare un login sicuro e collezionare statistiche per ottimizare il funzionamento del sito. Se vuoi saperne di più clicca su cookie policy. Chiudendo questo banner, scorrendo questa pagina o cliccando su qualunque suo elemento accetti l'utilizzo dei cookie da parte nostra. Per negare il consenso abbandona il sito."
     cookie_button: Accetto
   copied: Copiato
   copy: Copia
