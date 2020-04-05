@@ -14,6 +14,26 @@
 # GT20200405 inserito Js per visualizzare stato delle rooms
 %>
 
+
+<div class="container pt-6">
+  <%= render "shared/components/subtitle", subtitle: t("administrator.title"), search: false %>
+
+  <div class="row">
+    <div class="col-lg-3 mb-4">
+      <%= render "admins/components/menu_buttons" %>
+    </div>
+    <div id="server_recordings" class="col-lg-9">
+        <%= render "admins/components/setting_view", setting_id: "rooms", setting_title: t("administrator.rooms.title"), search: true %>
+    </div>
+  </div>
+</div>
+
+<%= render "shared/modals/delete_room_modal" %> 
+<%= render "shared/modals/create_room_modal" %>
+<% if shared_access_allowed %>
+  <%= render "shared/modals/share_room_modal" %>
+<% end %>
+
 <script>
 
 var ordine = [],
@@ -91,23 +111,3 @@ for (i = 0; i < td.length; i++) {
 }
 
 </script>
-
-
-<div class="container pt-6">
-  <%= render "shared/components/subtitle", subtitle: t("administrator.title"), search: false %>
-
-  <div class="row">
-    <div class="col-lg-3 mb-4">
-      <%= render "admins/components/menu_buttons" %>
-    </div>
-    <div id="server_recordings" class="col-lg-9">
-        <%= render "admins/components/setting_view", setting_id: "rooms", setting_title: t("administrator.rooms.title"), search: true %>
-    </div>
-  </div>
-</div>
-
-<%= render "shared/modals/delete_room_modal" %> 
-<%= render "shared/modals/create_room_modal" %>
-<% if shared_access_allowed %>
-  <%= render "shared/modals/share_room_modal" %>
-<% end %>
