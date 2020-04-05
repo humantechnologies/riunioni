@@ -11,7 +11,87 @@
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# GT20200405 inserito Js per visualizzare stato delle rooms
 %>
+
+<script>
+
+var ordine = [],
+    ordinenuovo = [],
+    coppia = [],
+    i = 0,
+    j = 0,
+    tot = 0;
+
+var qregnot = new RegExp('Not Running', 'i'),
+    qregyes = new RegExp('>Running<', 'i');
+
+var tabella = document.getElementById("rooms-table");
+
+var corpo = tabella.getElementsByTagName("TBODY");
+
+var righe = corpo[0].children;
+
+var numrighe = righe.length;
+
+/* CONTIAMO QUANTI NE ABBIAMO */
+for (i = 0; i < righe.length; i++) {
+   testo = righe[i].innerHTML;
+   if(qregyes.test(testo)){
+       tot = tot + 1;
+   }
+}
+
+/* ASSEGNAMO ORDINE */
+for (i = 0; i < righe.length; i++) {
+   testo = righe[i].innerHTML;
+   if(qregyes.test(testo)){
+       ordine.push([i, j]);
+       j = j + 1;
+   } else {
+       ordine.push([i, tot]);
+       tot = tot + 1;
+   }
+}
+
+/* RIORDINIAMO */
+ordine.sort(function(a, b) {return a[1]-b[1]});
+for (var i = 0; i < ordine.length; i++) {
+    ordine[i].pop(1);
+    ordinenuovo.push(ordine[i][0]);
+}
+
+/* CREAIAMO COL NUOVO ORDINE */
+var frammento = document.createDocumentFragment();
+ordinenuovo.forEach(function(idx) {
+    frammento.appendChild(righe[idx].cloneNode(true));
+});
+
+/* SOSTITUIAMO */
+corpo[0].innerHTML = null;
+corpo[0].appendChild(frammento);
+
+/* ANCHE L'OCCHIO VUOLE LA SUA PARTE */
+var td = tabella.getElementsByClassName("text-left");
+
+var i,
+    voce,
+    regnot = new RegExp('^Not Running$', 'i'),
+    regyes = new RegExp('^Running$', 'i');
+
+for (i = 0; i < td.length; i++) {
+    testo = td[i].innerText;
+    if(regyes.test(testo)){
+        td[i].style.fontWeight="bold";
+        td[i].style.color="limegreen";
+    } else if(regnot.test(testo)){
+        td[i].style.fontWeight="normal";
+        td[i].style.color="#495057;";
+    }
+}
+
+</script>
+
 
 <div class="container pt-6">
   <%= render "shared/components/subtitle", subtitle: t("administrator.title"), search: false %>
