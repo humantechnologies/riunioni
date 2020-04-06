@@ -39,7 +39,7 @@
 %>
 
 <!DOCTYPE html>
-<html>
+<html lang="<%= t("meta.language") %>">
   <head>
     <% if Rails.configuration.google_analytics %>
       <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -63,7 +63,7 @@
     <% # posso usare I18n.locale  ? è già inizializzato %>
 
     <meta name="Description" content="<%= meta_description %>" />
-    <meta name="Keywords" content="<%= meta_keys %>" />
+    <meta name="Keywords" lang="<%= t("meta.language") %>" content="<%= meta_keys %>" />
     <meta name="Robots" content="<%= meta_robots %>" />
  
     <meta name="revisit-after" content="15" />
