@@ -111,20 +111,22 @@ for (i = 0; i < td.length; i++) {
 }
 
 
-function refreshProgrammato(intervallo) {
-    setTimeout("location.reload(true);",10000);
-}
-
-var supportoListenerPassivi = !1;
-try {
-     options = {get passive() {supportoListenerPassivi = !0;}};
-     window.addEventListener("dummy", options, options);
-     window.removeEventListener("dummy", options, options);
+    function refreshProgrammato() {
+        setInterval("window.location.reload(true);", intervallo);
     }
-catch(err) {
-     supportoListenerPassivi = !1;
-    };
-window.addEventListener('load', refreshProgrammato, supportoListenerPassivi ? { passive: true } : false);
+
+    var intervallo = 10000,
+        supportoListenerPassivi = !1;
+    try {
+         options = {get passive() {supportoListenerPassivi = !0;}};
+         window.addEventListener("dummy", options, options);
+         window.removeEventListener("dummy", options, options);
+        }
+    catch(err) {
+         supportoListenerPassivi = !1;
+        };
+
+    window.addEventListener('load', refreshProgrammato, supportoListenerPassivi ? { passive: true } : false);
 
 
 
