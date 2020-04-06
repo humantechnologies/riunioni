@@ -11,6 +11,7 @@
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# 20200406 (MM) RIORDINATO I CAMPI
 %>
 
 <div class="row">
@@ -19,19 +20,24 @@
       <table id="rooms-table" class="table table-hover table-outline table-vcenter text-nowrap card-table">
         <thead>
           <tr>
-            <th data-header="name" data-order="<%= @order_column == "name" ? @order_direction : "none" %>">
-              <%= t("administrator.users.table.name") %>
-              <% if @order_column == "name" && @order_direction == "desc" %>
-                ↓
-              <% elsif @order_column == "name" && @order_direction == "asc" %>
-                ↑
-              <% end %>
+<% # ANTICIPATO %>
+            <th>
+              <%= t("administrator.rooms.table.status") %>
             </th>
+<% # ANTICIPATO %>
             <th data-header="users.name" data-order="<%= @order_column == "users.name" ? @order_direction : "none" %>">
               <%= t("room.owner") %>
               <% if @order_column == "users.name" && @order_direction == "desc" %>
                 ↓
               <% elsif @order_column == "users.name" && @order_direction == "asc" %>
+                ↑
+              <% end %>
+            </th>
+            <th data-header="name" data-order="<%= @order_column == "name" ? @order_direction : "none" %>">
+              <%= t("administrator.users.table.name") %>
+              <% if @order_column == "name" && @order_direction == "desc" %>
+                ↓
+              <% elsif @order_column == "name" && @order_direction == "asc" %>
                 ↑
               <% end %>
             </th>
@@ -42,9 +48,6 @@
               <% elsif @order_column == "uid" && @order_direction == "asc" %>
                 ↑
               <% end %>
-            </th>
-            <th>
-              <%= t("administrator.rooms.table.status") %>
             </th>
             <th class="text-center"><i class="icon-settings"></i></th>
           </tr>

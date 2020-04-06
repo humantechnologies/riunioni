@@ -11,9 +11,24 @@
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+
+# 20200406 (MM) RIORDINATO I CAMPI
 %>
 
 <tr id="room-block" data-path="<%= update_settings_path(room) %>" data-room-settings=<%= room.room_settings %> data-room-access-code="<%= room.access_code %>">
+<% # ANTICIPATA %>
+  <td class="text-left">
+    <% running = room_is_running(room.bbb_id) %>
+    <% if running %>
+      <%= t("administrator.rooms.running") %>
+    <% else %>
+      <%= t("administrator.rooms.not_running") %>
+    <% end %>
+  </td>
+<% # ANTICIPATA %>
+  <td class="text-left">
+    <%= room.owner.name %>
+  </td>
   <td>
     <div id="room-title" class="form-inline edit_hover_class">
       <% if room.id == room.owner.room_id %>
@@ -28,18 +43,7 @@
     </div>
   </td>
   <td class="text-left">
-    <%= room.owner.name %>
-  </td>
-  <td class="text-left">
     <%= room.uid %>
-  </td>
-  <td class="text-left">
-    <% running = room_is_running(room.bbb_id) %>
-    <% if running %>
-      <%= t("administrator.rooms.running") %>
-    <% else %>
-      <%= t("administrator.rooms.not_running") %>
-    <% end %>
   </td>
   <td class="text-center">
     <div class="item-action dropdown">
