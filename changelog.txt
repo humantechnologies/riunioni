@@ -1,5 +1,5 @@
 versione 1.0.8-1.0.10 modifiche dal 05/04/2020 al 06/04/2020 su versione master (greenlight release 2.5.2)
-
+ 
 app/wiews/admins/components/_server_rooms_row.html.erb   (modificato layout campi tabelle)
 app/wiews/admins/components/_rooms.html.erb              (modificato layout campi tabelle)
 
