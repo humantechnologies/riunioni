@@ -249,7 +249,7 @@ en:
   footer:
     powered_by: "Copyright 2019:    %{href}."
     ht: "HT Tecnologie Umanistiche s.r.l. - cf/p.iva 02160600991"
-    mail: info@tecnologie-umanistiche.it
+    mail: info@riunioni.online
     phone: "+39 3357499489"
     terms: Terms of Use
     privacy: Privacy Policy
@@ -356,7 +356,7 @@ en:
         welcome: Welcome to your personal space, %{name}!
         success: Leveraging %{bigbluebutton}, you can create your own rooms to host sessions and collaborate with others.
         username: Your username is %{email}.
-        verify: To verify your account, just click the button below.
+        verify: To verify your account, just click the button below or copy in the browser.
         verify_text: 'To verify your account, just follow this link: %{url}'
         verify_link: Verify Account
         thanks: Thanks for joining and have a great day!
@@ -455,6 +455,7 @@ en:
   password_empty_notice: Password cannot be empty.
   password_reset_success: Password has been reset.
   password_different_notice: Password Confirmation does not match.
+  password_show: show password
   provider:
     google: Google
     office365: Office 365

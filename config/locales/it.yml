@@ -146,7 +146,7 @@ it:
   delivery_error: Si è verificato un'errore nella consegna della mail. Contatta un amministratore!
   docs: Documentazione
   email: Email
-  email_sent: "La tua email di %{email_type} è stata inviata! (Controlla nella cartella Spam della tua email se non la ricevi)"
+  email_sent: "Una email di %{email_type} è stata inviata! (Controlla nella cartella Spam della tua email se non la ricevi)"
   enter_your_name: Inserisci il tuo nome!
   errors:
     bigbluebutton:
@@ -219,7 +219,7 @@ it:
   footer:
     powered_by: "Copyright 2020:   %{href}."
     ht: "HT Tecnologie Umanistiche s.r.l. - cf/p.iva 02160600991"
-    mail: info@tecnologie-umanistiche.it
+    mail: info@riunioni.online
     phone: "+39 3357499489"
     terms: Termini di Utilizzo
     privacy: Privacy Policy
@@ -309,25 +309,25 @@ it:
         subject:
         username:
       password_reset:
-        title: 'Reimposta password'
-        welcome:
-        message: ''
+        title: 'Reset password'
+        welcome: Reset password richiesto per l'email <b>%{email}</b>
+        message: 'Se hai richiesto il reset, clicca sul link in basso per cambiare password:'
         reset_link: Reimposta Password
         expire: Questo link scadrà tra 2 ore.
-        ignore:
+        ignore: Puoi ignorare questa email se non hai fatto tu la richiesta.
       promoted:
         admins_link:
         info:
         more-info:
         subtitle:
       verify_email:
-        welcome: "Benvenuti nel vostro spazio personale, %{name}!"
-        success: "Supporta %{bigbluebutton}, puoi creare le tue sale e ospitare meeting per collaborare con altri utenti."
+        welcome: "Benvenuto su Riunioni.Online, %{name}!"
+        success: "Su %{bigbluebutton}, puoi creare le tue sale riunioni e ospitare meeting per collaborare con altri utenti."
         username: "Il tuo nome utente è %{email}."
-        verify: "Per verificare il tuo account, clicca sul link seguente."
+        verify: "Per verificare il tuo account, clicca sul link seguente o copialo nel browser."
         verify_text: 'Per verificare il tuo account, visita questo indirizzo: %{url}'
         verify_link: Verifica Account
-        thanks: "Grazie per aver participato, buona giornata!"
+        thanks: "Grazie per esserti iscritto, buona giornata!"
   maintenance:
     window_alert:
   max_concurrent: E' stato raggiunto il massimo numero di sessioni contemporanee!
@@ -403,6 +403,7 @@ it:
   password_empty_notice: La password non può essere vuota.
   password_reset_success: La password è stata reimpostata.
   password_different_notice: La conferma della password non coincide.
+  password_show: mostra password
   provider:
     google: Google
     office365:
@@ -451,7 +452,7 @@ it:
       no_invite:
   rename: Rinomina
   reset_password:
-    subtitle: Reimposta password
+    subtitle: Reset password
     password: Nuova password
     confirm: Conferma nuova password
     update: Aggiorna password
