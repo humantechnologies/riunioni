@@ -33,6 +33,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     @user.provider = @user_domain
+    # GT20200411 forzatura email verificata quando creo un nuovo account
+    @user.email_verified = true
 
     # User or recpatcha is not valid
     render("sessions/new") && return unless valid_user_or_captcha
