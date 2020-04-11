@@ -96,9 +96,14 @@
       window.GreenLight.RELATIVE_ROOT = "<%= relative_root %>"
     </script>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
+    <!-- commento queste
+    <%# = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%# = javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    -->
+    
+    <%= stylesheet_link_tag    'application' %>
+    <%= javascript_include_tag 'application' %>
+    
     <!-- Primary color styling -->
     <%= stylesheet_link_tag themes_primary_path %>
 
