@@ -1,3 +1,16 @@
+versione 1.0.11 modifiche dal 06/04/2020 al 11/04/2020 su versione master (greenlight release 2.5.2)
+
+app/views/sessions/signin.html.erb                   (inserito flag per visualizzazione password)
+
+app/controllers/user_controller.rb                   (forzato email_verified=true alla creazione account)
+
+app/views/layout/application.html.erb                (modificati meta)
+app/views/shared/_footer.html.erb                    (modificata mail nel footer)
+
+config/locales/en.yml                                (modificata mail nel footer, aggiunto show_password)
+config/locales/it.yml                                (modificata mail nel footer, aggiunto show_password)
+
+
 versione 1.0.8-1.0.10 modifiche dal 05/04/2020 al 06/04/2020 su versione master (greenlight release 2.5.2)
  
 app/wiews/admins/components/_server_rooms_row.html.erb   (modificato layout campi tabelle)
