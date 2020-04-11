@@ -54,6 +54,8 @@
                 </span>
                 <%= f.password_field :password, class: "form-control", placeholder: t("password"), value: "" %>
               </div>
+                <!-- GT20200409 An element to toggle between password visibility and java-->
+              <input class="ml-3 mt-3" type="checkbox" onclick="show_password()">&nbsp;<%= t("password_show") %>
             </div>
             <% if Rails.configuration.enable_email_verification %>
               <div class="form-group">
@@ -71,3 +73,17 @@
     </div>
   </div>
 </div>
+
+<script>
+
+function show_password() {
+  var x = document.getElementById("session_password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
+</script>
+
