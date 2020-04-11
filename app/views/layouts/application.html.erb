@@ -58,7 +58,7 @@
     <% # GT20200328 aggiunti meta, lasciati i meta di default csrf_meta_tags %>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="public, max-age=#{4.days.to_i}" /> 
     <meta http-equiv="content-language" content="<%= t("meta.language") %>" />     
     <% # posso usare I18n.locale  ? è già inizializzato %>
 
