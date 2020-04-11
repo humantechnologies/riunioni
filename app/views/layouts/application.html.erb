@@ -55,7 +55,7 @@
 
     <title><%= meta_title %></title>
     
-    <% # GT20200328 aggiunti meta, lasciati i meta di default csrf_meta_tags %>
+    <% # GT20200328 aggiunti meta, lasciati i meta di default csrf_meta_tags servono per la sicurezza %>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Cache-Control" content="public, max-age=#{4.days.to_i}" /> 
@@ -101,7 +101,7 @@
     <%# = javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     -->
     
-    <%= stylesheet_link_tag    'application' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     
     <!-- Primary color styling -->
