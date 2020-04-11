@@ -26,7 +26,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require turbolinks
+// 20204011 (MM) ELIMINATO turbolinks CREDO CHE SI FACCIA COSI...
+// require turbolinks
+//
 //= require jquery
 //= require tabler
 //= require tabler.plugins
