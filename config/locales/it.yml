@@ -143,10 +143,10 @@ it:
     month_names: [~, Gennaio, Febbraio, Marzo, Aprile, Maggio, Giugno, Luglio, Agosto, Settembre, Ottobre, Novembre, Dicembre]
   default_admin: "Stai utilizzando la password di default per l'account. Clicca <a href=\"%{edit_link}\">qui</a> per cambiarla"
   delete: Elimina
-  delivery_error: Si è verificato un'errore nella consegna della mail. Contatta un amministratore!
+  delivery_error: Si è verificato un'errore nella consegna della mail. Contatta un amministratore (mail: info@riunioni.online)
   docs: Documentazione
   email: Email
-  email_sent: "Ti abbiamo inviato una email di %{email_type}! (Controlla anche nella cartella Spam della tua email se non la trovi)"
+  email_sent: "Ti abbiamo inviato una email di %{email_type}! (Controlla anche nella tua cartella Spam se non la trovi)"
   enter_your_name: Inserisci il tuo nome!
   errors:
     bigbluebutton:
@@ -271,7 +271,7 @@ it:
     about: "La prima piattaforma italiana di web conferencing e didattica online. Qui puoi creare le tue Aule Virtuali per le tue riunioni e lezioni, o collegarti con i tuoi  amici in  modo semplice e veloce. Invia il link della tua Aula per consentire l'accesso alla riunioni, usa la lavagna virtuale per disegnare e per mostrare presentazioni e contenuti multimediali, chatta e condividi il tuo schermo con i partecipanti."
     welcome: benvenuto su Riunioni.Online
     meetings: con te ovunque tu sia
-    video: Il servizio sarà illimitato (escluse le registrazioni) e gratuito durante il periodo di Emergenza COVID-2019
+    video: Il servizio sarà illimitato (registrazioni escluse) e gratuito durante il periodo di Emergenza COVID-2019
     upgrade: Mostrami come passare a 2.0!
     version: Abbiamo una nuova versione di Riunioni, ma il tuo database non è compatibile.
   language_default: Predefinito (linguaggio del browser)
