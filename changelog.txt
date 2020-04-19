@@ -1,4 +1,12 @@
-versione 1.0.11 modifiche dal 06/04/2020 al 11/04/2020 su versione master (greenlight release 2.5.2)
+versione 1.0.14 modifiche dal 11/04/2020 al 19/04/2020 su versione master (greenlight release 2.5.2)
+
+app/assets/javascripts/*.js                          (sostituito evento turbolink:load con window.load)
+
+config/locales/en.yml                                (aggiunta adminsitrator.user.setting.merge)
+config/locales/it.yml                                (aggiunte nuove traduzioni da inglese)
+
+
+versione 1.0.11 - 1.0.13 modifiche dal 06/04/2020 al 11/04/2020 su versione master (greenlight release 2.5.2)
 
 app/views/sessions/signin.html.erb                   (inserito flag per visualizzazione password)
 
