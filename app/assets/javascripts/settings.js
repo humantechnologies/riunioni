@@ -15,7 +15,9 @@
 // with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 
 // Handle changing of settings tabs.
-$(document).on('turbolinks:load', function(){
+// GT20200419 sostituito evento
+//$(document).on('turbolinks:load', function(){
+$(window).on( "load", function() { 
   var controller = $("body").data('controller');
   var action = $("body").data('action');
 

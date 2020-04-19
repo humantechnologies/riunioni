@@ -14,7 +14,9 @@
 // You should have received a copy of the GNU Lesser General Public License along
 // with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 
-$(document).on('turbolinks:load', function(){
+// GT20200419 sostituito evento
+//$(document).on('turbolinks:load', function(){
+$(window).on( "load", function() { 
   $.rails.refreshCSRFTokens();
 })
 
