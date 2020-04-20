@@ -79,13 +79,13 @@ config/terms.md
 
 4) modifiche alle immagini
 
-public/favicon.ico                       (sostituita favicon.ico)
-public/riunioni_e_lezioni_online.jpg     (aggiunta immagine per metatag open graphs og:image)
-public/strumenti_per_videoconferenze.jpg (per home page)
-public/users/user_placeholder.jpg        (user avatar)
+public/favicon.ico                            (sostituita favicon.ico)
+public/riunioni_e_lezioni_online.jpg          (aggiunta immagine per metatag open graphs og:image)
+public/strumenti_per_videoconferenze-PROG.jpg (per home page)
+public/users/user_placeholder.jpg             (user avatar)
 
-app/assets/images/bbb_logo.png           (sostituita)
-app/assets/images/logo_with_text.png     (sostituita)
+app/assets/images/bbb_logo.png                (sostituita)
+app/assets/images/logo_with_text.png          (sostituita)
  
 5) modificato session_store.rb per nome cookies e durata
 
