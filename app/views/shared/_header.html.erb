@@ -46,7 +46,7 @@
             <a href="#" class="nav-link pr-0" data-toggle="dropdown">
               <% if current_user.image.blank? || !valid_url?(current_user.image) %>
                 <!-- GT20200328 <span class="avatar"><%= current_user.name.first %></span>  -->
-                <span class="avatar" style="background-image: url(<%= "/users/user_placeholder.jpg" %>)"></span>
+                <span class="avatar" style="background-image: url(<%= "user_placeholder.jpg" %>)"></span>
               <% else %>
                 <span id="user-avatar" class="avatar d-none"><%= current_user.name.first %></span>
                 <%= image_tag(current_user.image, id: "user-image", class: "avatar") %>
