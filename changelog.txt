@@ -1,12 +1,14 @@
 
+versione 1.0.15 modifiche dal 19/04/2020 al 21/04/2020 su versione master (greenlight release 2.5.2)
 
-app/assets/stylesheets/utilities/application.scss    (riga 56: aggiunto font-display: swap;)
+app/assets/stylesheets/application.scss              (riga 56: aggiunto font-display: swap;)
 
-nuova immagine progressiva caricata in app/public/:
-strumenti_per_videoconferenze-PROG.jpg               (per home page)
-modificato per immagine progressiva:
-app/views/main/index.html.erb                        (riga 22 background: url(...);)
+app/public/strumenti_per_videoconferenze-PROG.jpg    (immagine progresiva per home page)
+app/views/main/index.html.erb                        (riga 22 modificato per immagine progressiva background: url(...);)
 
+public/user_placeholder.jpg                          (spostata immagine avatar)
+app/views/shared/_header.html.erb                    (spostata immagine avatar)
+app/views/users/components/account.html.erb          (spostata immagine avatar)
 
 
 versione 1.0.14 modifiche dal 11/04/2020 al 19/04/2020 su versione master (greenlight release 2.5.2)
