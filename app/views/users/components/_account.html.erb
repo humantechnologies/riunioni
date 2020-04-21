@@ -80,7 +80,7 @@
       <div class="col-2">
         <% if @user.image.blank? %>
        		<%#GT20200328     <span class="avatar avatar-xxl mr-5 mt-2 bg-primary"><%= @user.name.first % ></span>  %>
-          <span class="avatar avatar-xxl mr-5 mt-2" style="background-image: url(<%= "/users/user_placeholder.jpg" %>)"></span>
+          <span class="avatar avatar-xxl mr-5 mt-2" style="background-image: url(<%= "user_placeholder.jpg" %>)"></span>
         <% else %>
           <span class="avatar avatar-xxl mr-5 mt-2" style="background-image: url(<%= @user.image %>)"></span>
         <% end %>
