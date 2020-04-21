@@ -1,7 +1,7 @@
 
 
 app/assets/stylesheets/utilities/application.scss    (riga 56: aggiunto font-display: swap;)
-modifiche alla immagine (caricata):
+nuova immagine progressiva (caricata in app/public/):
 public/strumenti_per_videoconferenze-PROG.jpg        (per home page)
 
 
