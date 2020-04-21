@@ -1,6 +1,8 @@
 
 
 app/assets/stylesheets/utilities/application.scss    (riga 56: aggiunto font-display: swap;)
+modifiche alla immagine (caricata):
+public/strumenti_per_videoconferenze-PROG.jpg        (per home page)
 
 
 versione 1.0.14 modifiche dal 11/04/2020 al 19/04/2020 su versione master (greenlight release 2.5.2)
@@ -86,7 +88,7 @@ config/terms.md
 
 public/favicon.ico                            (sostituita favicon.ico)
 public/riunioni_e_lezioni_online.jpg          (aggiunta immagine per metatag open graphs og:image)
-public/strumenti_per_videoconferenze-PROG.jpg (per home page)
+public/strumenti_per_videoconferenze.jpg      (per home page)
 public/users/user_placeholder.jpg             (user avatar)
 
 app/assets/images/bbb_logo.png                (sostituita)
