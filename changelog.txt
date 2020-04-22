@@ -1,9 +1,5 @@
 
-app/views/layouts/application.html.erb:              (commentato Global site tag (gtag.js) - Google Analytic dalla riga 45
-                                                      e rimandato load gtag a scroll, focus o click)
-
-
-versione 1.0.15 modifiche dal 19/04/2020 al 21/04/2020 su versione master (greenlight release 2.5.2)
+versione 1.0.15b modifiche dal 19/04/2020 al 22/04/2020 su versione master (greenlight release 2.5.2)
 
 app/assets/stylesheets/application.scss              (riga 56: aggiunto font-display: swap;)
 
@@ -14,6 +10,8 @@ public/user_placeholder.jpg                          (spostata immagine avatar)
 app/views/shared/_header.html.erb                    (spostata immagine avatar)
 app/views/users/components/account.html.erb          (spostata immagine avatar)
 
+app/views/layouts/application.html.erb:              (commentato Global site tag (gtag.js) - Google Analytic dalla riga 45
+                                                      e rimandato load gtag a scroll, focus o click)
 
 versione 1.0.14 modifiche dal 11/04/2020 al 19/04/2020 su versione master (greenlight release 2.5.2)
 
