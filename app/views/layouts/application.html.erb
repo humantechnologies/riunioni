@@ -42,13 +42,38 @@
 <html lang="<%= t("meta.language") %>">
   <head>
     <% if Rails.configuration.google_analytics %>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="<%= google_analytics_url %>"></script>
+    <% # MM20200422 modificato per caricare gtag allo scroll, accelera di 0.2sec %>
+<!-- Global site tag (gtag.js) - Google Analytics 
+      <script async src="<% # = google_analytics_url %>"></script>
+-->
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', "<%= ENV["GOOGLE_ANALYTICS_TRACKING_ID"] %>");
+
+        var ultimifilejs = [];
+        ultimifilejs.push([false, '<%= google_analytics_url %>']);
+
+        function caricaultimifiles() {
+            if (typeof ultimifilejs !== 'undefined' && ultimifilejs.length > 0) {
+                for (var i = 0, len = ultimifilejs.length; i < len; i++) {
+                    if(!ultimifilejs[i][0]) ultimifilejs[i][0] = caricajsc(ultimifilejs[i][1]);
+                }
+            }
+        };
+
+        function caricajsc(href){
+        var n = document.createElement('script');
+            n.src = href;
+        var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(n, s);
+        return true;}
+
+        $(document).ready(function(){
+            $(document).click (caricaultimifiles);
+            $(document).focus (caricaultimifiles);
+            $(document).scroll(caricaultimifiles);});
       </script>
     <% end %>
 
