@@ -12,6 +12,7 @@
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 # GT20200328 added meta
+# MM20200422 modificato per caricare gtag allo scroll, accelera di 0.2sec 
 %>
 
 <% 
@@ -42,16 +43,25 @@
 <html lang="<%= t("meta.language") %>">
   <head>
     <% if Rails.configuration.google_analytics %>
-    <% # MM20200422 modificato per caricare gtag allo scroll, accelera di 0.2sec %>
-
       <script>
         window.dataLayer = window.dataLayer || [];
+
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', "<%= ENV["GOOGLE_ANALYTICS_TRACKING_ID"] %>");
 
         var ultimifilejs = [];
         ultimifilejs.push([false, '<%= google_analytics_url %>']);
+
+        var supportoListenerPassivi = !1;
+        try {
+             options = {get passive() {supportoListenerPassivi = !0;}};
+             window.addEventListener("dummy", options, options);
+             window.removeEventListener("dummy", options, options);
+            }
+        catch(err) {
+             supportoListenerPassivi = !1;
+            };
 
         function caricaultimifiles() {
             if (typeof ultimifilejs !== 'undefined' && ultimifilejs.length > 0) {
@@ -68,9 +78,21 @@
             s.parentNode.insertBefore(n, s);
         return true;}
 
-        $(document).ready(function(){
-            $(document).focus (caricaultimifiles);
-            $(document).scroll(caricaultimifiles);});
+        function aggiungiListener_BrwsIndep(elemento, evento, callback) {
+            if (elemento.addEventListener) {elemento.addEventListener(evento, callback, supportoListenerPassivi ? { passive: true } : false);}
+            else if (elemento.attachEvent) {elemento.attachEvent('on' + evento, callback);}
+        }
+
+        function aggiungiListener_onDOMContentLoaded_BrwsIndep(elemento, evento, callback) {
+            if (document.readyState === "loading") {
+              aggiungiListener_BrwsIndep(document, 'DOMContentLoaded', function () {aggiungiListener_BrwsIndep(elemento, evento, callback);});
+            } else {
+              aggiungiListener_BrwsIndep(elemento, evento, callback);
+            }
+        }
+
+        aggiungiListener_onDOMContentLoaded_BrwsIndep(document, 'focus',  caricaultimifiles);
+        aggiungiListener_onDOMContentLoaded_BrwsIndep(document, 'scroll', caricaultimifiles);
       </script>
     <% end %>
 
