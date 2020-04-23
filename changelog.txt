@@ -1,5 +1,5 @@
 
-vedo che le due immaginiche servono sono "trovate" solo dopo l'esecuzione del css (1sec) e del js (1.8sec)
+vedo che le due immagini che servono sono "trovate" solo dopo l'esecuzione del css (1sec) e del js (1.8sec)
 tanto vale caricarle prima
 app/views/layouts/application.html.erb:              (messo link rel="prefetch" per le due immagini)
 
