@@ -1,4 +1,9 @@
 
+vedo che le due immaginiche servono sono "trovate" solo dopo l'esecuzione del css (1sec) e del js (1.8sec)
+tanto vale caricarle prima
+app/views/layouts/application.html.erb:              (messo link rel="prefetch" per le due immagini)
+
+
 versione 1.0.15b modifiche dal 19/04/2020 al 22/04/2020 su versione master (greenlight release 2.5.2)
 
 app/assets/stylesheets/application.scss              (riga 56: aggiunto font-display: swap;)
