@@ -1,6 +1,5 @@
 
-vedo che le due immagini che servono sono "trovate" solo dopo l'esecuzione del css (1sec) e del js (1.8sec)
-tanto vale caricarle prima
+le due immagini riunioni_online.png e strumenti_per_videoconferenze-PROG.jpg sono "trovate" solo dopo l'esecuzione del css (1sec) e del js (1.8sec), conviene caricarle prima visto che il numero massimo di connessioni non e' ancora raggiunto:
 app/views/layouts/application.html.erb:              (messo link rel="prefetch" per le due immagini)
 
 
