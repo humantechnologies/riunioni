@@ -187,7 +187,22 @@
 
       <%= yield %>
     </div>
+    <script>
+        var vocimenu = document.querySelectorAll(".dropdown-item"),
+            estquery = /\?/,
+            accaref;
 
+        for (var i = 0, len = vocimenu.length; i < len; i++) {
+            accaref = vocimenu[i].href;
+            if(typeof accaref !== 'undefined') {
+                if(estquery.test(accaref)){
+                    vocimenu[i].href = accaref + '&' +  Math.random();   
+                } else {
+                    vocimenu[i].href = accaref + '?' +  Math.random();   
+                }
+            }
+        }
+    </script>  
     <%= render "shared/footer" %>
   </body>
 </html>
