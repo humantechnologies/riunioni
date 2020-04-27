@@ -1,4 +1,7 @@
 
+ho aggiunto un cache-buster nelle pagine di amministrazione per bypassare la politica di cache impostata in nginx su tutti gli elementi di classe .dropdown-item:
+app/views/layout/application.html.erb                (aggiunto script inline a fine pagina riga 191)
+
 le due immagini riunioni_online.png e strumenti_per_videoconferenze-PROG.jpg sono "trovate" solo dopo l'esecuzione del css (1sec) e del js (1.8sec), conviene caricarle prima visto che il numero massimo di connessioni non e' ancora raggiunto:
 app/views/layouts/application.html.erb:              (messo link rel="prefetch" per le due immagini)
 
@@ -15,7 +18,7 @@ app/views/shared/_header.html.erb                    (spostata immagine avatar)
 app/views/users/components/account.html.erb          (spostata immagine avatar)
 
 app/views/layouts/application.html.erb:              (commentato Global site tag (gtag.js) - Google Analytic dalla riga 45
-                                                      e rimandato load gtag a scroll, focus o click)
+                                                      e rimandato load gtag ad eventi scroll e focus) con script inline
 
 versione 1.0.14 modifiche dal 11/04/2020 al 19/04/2020 su versione master (greenlight release 2.5.2)
 
