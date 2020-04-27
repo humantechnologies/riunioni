@@ -1,9 +1,11 @@
 
-ho aggiunto un cache-buster nelle pagine di amministrazione per bypassare la politica di cache impostata in nginx su tutti gli elementi di classe .dropdown-item:
+ho aggiunto un cache-buster su tutti i link di classe .dropdown-item nelle pagine di amministrazione per bypassare
+la politica di cache un po' tanto aggressiva impostata in nginx :
 app/views/layout/application.html.erb                (aggiunto script inline da riga 191)
 
-le due immagini riunioni_online.png e strumenti_per_videoconferenze-PROG.jpg sono "trovate" solo dopo l'esecuzione del css (1sec) e del js (1.8sec), conviene caricarle prima visto che il numero massimo di connessioni non e' ancora raggiunto:
-app/views/layouts/application.html.erb:              (messo link rel="prefetch" per le due immagini)
+le due immagini riunioni_online.png e strumenti_per_videoconferenze-PROG.jpg sono cercate solo dopo l'esecuzione del css
+(1sec) e del js (1.8sec), conviene pre-caricarle prima visto che il numero massimo di connessioni non e' ancora raggiunto:
+app/views/layouts/application.html.erb:              (messo link rel="preload" per le due immagini)
 
 
 versione 1.0.15b modifiche dal 19/04/2020 al 22/04/2020 su versione master (greenlight release 2.5.2)
