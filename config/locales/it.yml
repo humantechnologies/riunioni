@@ -89,11 +89,13 @@ it:
       title: Registrazioni video sul server
       no_recordings: Il server non ha registrazioni video
     roles:
-      can_create_rooms: Non posso creare la Sala
+      appear_in_share_list: Includi gli Utenti nel menu dropdown per la condivisione delle Sale
+      can_create_rooms: Consenti agli Utenti la creazione di una nuova Sala
       delete: Cancella il ruolo
-      invalid_create:
-      invalid_order:
-      invalid_update:
+      invalid_create: Problema creando il nuovo ruolo. Controlla i valori e riprova
+      invalid_order: Problema creando la priorità del nuovo ruolo. Controlla i valori e riprova
+      invalid_update: Problema creando i permessi del nuovo ruolo. Controlla i valori e riprova
+      manage_rooms_recordings: Consenti agli Utenti la gestione delle Sale e delle Registrazioni
       name: Nome del Ruolo
       new_role: Crea un nuovo ruolo
       role_has_users: "Questo ruolo è ancora assegnato a %{user_count} utenti. Prego rimuovi tutti gli utenti con quel ruolo prima di eliminare il ruolo stesso"
@@ -474,8 +476,10 @@ it:
     confirm: Conferma nuova password
     update: Aggiorna password
   roles:
-    admin:
+    active: Attivo
+    admin: Admin
     banned: Bloccato
+    deleted: Cancellato
     pending: In attesa
     user: Utente
   room:
@@ -545,7 +549,7 @@ it:
   signup:
     password_confirm: Conferma Password
     subtitle: Crea un Account
-    title: Registrati Gratis
+    title: Registrati
     with: "Iscriviti con %{provider}"
   terms:
     accept: "Accetto %{href}"
