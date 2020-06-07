@@ -1,3 +1,10 @@
+versione 1.0.19 modifiche dal 03/06/2020 al 07/06/2020 su versione master (greenlight release 2.5.2)
+
+app/views/rooms/components/_room_event.html.erb    (aggiunta nota ingresso in aula)
+config/locales/en.yml                              (aggiunta nota ingresso in aula)
+config/locales/it.yml                              (aggiunta nota ingresso in aula)
+
+
 versione 1.0.18 modifiche dal 03/05/2020 al 02/06/2020 su versione master (greenlight release 2.5.2)
 
 app/wiews/main/components/_features.html.erb       (rimosso messaggio covid)
