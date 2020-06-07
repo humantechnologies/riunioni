@@ -489,7 +489,8 @@ it:
     create_room_success: La Sala è stata creata correttamente
     enter_the_access_code: Immetti il codice di accesso alla Sala
     invalid_provider:
-    invited: Hai ricevuto un invito per partecipare
+    invited: Hai ricevuto un invito alla riunione, per partecipare inserisci il tuo nome e premi il tasto partecipa
+    invited_instructions: (non è necessario registrarsi alla conferenza o al sito per partecipare)
     invite_participants: Invita partecipanti
     join: Partecipa
     last_session: "Ultima sessione: %{session}"

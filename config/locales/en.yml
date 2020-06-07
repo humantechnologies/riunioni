@@ -531,6 +531,7 @@ en:
     enter_the_access_code: Enter the room's access code
     invalid_provider: You have entered an invalid url. Please check the url and try again.
     invited: You have been invited to join
+    invited_instructions: (You don't need to signin or signup)
     invite_participants: Invite Participants
     join: Join
     last_session: Last session on %{session}
