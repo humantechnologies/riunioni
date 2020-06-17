@@ -16,7 +16,7 @@ Puoi caricare inoltre qualsiasi presentazione in formato PDF (consigliato) o doc
 
 È possibile condividere il desktop con tutti gli utenti (richiede la versione più recente di Java solo per relatore).
 
-Gli utenti dei browser Chrome e FireFox trarranno vantaggio dall'audio WebRTC di alta qualità e bassa latenza. (Gli utenti di altri browser useranno senza problemi l'audio basato su Flash.)
+Gli utenti dei browser Chrome e FireFox trarranno vantaggio dall'audio WebRTC di alta qualità e bassa latenza.
 
 Più utenti possono condividere la loro webcam allo stesso tempo. Non esiste un limite predefinito per il numero di webcam attive contemporaneamente.
  
