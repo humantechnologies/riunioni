@@ -205,12 +205,12 @@ it:
   expired_reset_token: Il link per il reset della password è scaduto!
   features:
     title: Servizio gratuito durante tutto il periodo di Emergenza COVID-2019
-    subtitle: "La prima piattaforma italiana di sale riunioni, videoconferenze, e formazione online. Qui puoi creare le tue sale virtuali per riunioni, webinar, conferenze, corsi, assemblee. Invita nelle tue sale riunione semplicemente inviando il link della tua sala, non si deve installare nessun software. Usa la lavagna virtuale per mostrare presentazioni e contenuti multimediali ai partecipanti."
-    subtitle2: Uno strumento professionale e flessibile per le riunioni di lavoro di professionisti, associazioni, piccole e medie imprese, per professionisti della formazione a distanza, per scuole e docenti che vogliono organizzare doposcuola, ripetizioni, aule di sostegno.
+    subtitle: "La prima piattaforma italiana di sale riunioni, videoconferenze, e formazione online rivolta ad una utenza professionale. Qui puoi creare le tue sale virtuali per riunioni, webinar, conferenze, corsi, assemblee. Invita nelle tue sale riunione semplicemente inviando il link della tua sala, non si deve installare nessun software. Usa la lavagna virtuale per mostrare presentazioni e contenuti multimediali ai partecipanti."
+    subtitle2: Uno strumento flessibile per le riunioni di lavoro di professionisti, associazioni, piccole e medie imprese, per scuole che vogliono organizzare doposcuola o aule di sostegno.
     rooms: Sale Riunioni
-    roomsdetails: Riunioni, Conferenze, Webinar, Corsi, Interviste, Lezioni 
+    roomsdetails: Ideali per Riunioni, Conferenze, Webinar, Corsi, Interviste, Lezioni 
     recordings: Collegamento Criptato
-    recordingsdetails: Massima sicurezza dei collegamenti, nessun dato pesonale raccolto 
+    recordingsdetails: Classe A+, massima sicurezza dei collegamenti, nessun dato pesonale raccolto 
     designs: Configurabile
     designdetails: Ruoli di moderatore, presentatore, ascoltatore
     authentication: Condivisione Schermo
@@ -218,7 +218,7 @@ it:
     whytitle: Perchè usare le Aule Virtuali di <b>Riunioni.Online</b>
     whypara1: Se sei una società che eroga formazione, nelle aule virtuali di <b>Riunioni.Online</b> puoi ospitare i tuoi webinar e seminari per professionisti senza far muovere i partecipanti da casa o dalla propria sede di lavoro.
     whypara2: Se gestisci una azienda puoi organizzare riunioni o erogare corsi di aggiornamento ai tuoi dipendenti direttamente alla loro postazione di lavoro, anche in sedi diverse sparse sul territorio, con una notevole ottimizzazione dei tempi di esecuzione e riduzione dei costi per spostamenti e logistica.
-    whypara3: Puoi anche utilizzare i nostri servizi per fornire supporto tecnico online ai clienti della tua attività, consentendogli di connettersi in videoconferenza per richiedere informazioni e parlare con un esperto  della tua azienda, risolvendo già da remoto la soluzione molti problemi o consentendo un intervento più mirato sul campo.
+    whypara3: Puoi interagire con i nuovi clienti (non devono installare nessun nuovo software sui loro computer!) o fornire supporto tecnico online ai clienti della tua attività, consentendogli di connettersi in videoconferenza per richiedere informazioni e parlare con un esperto  della tua azienda, risolvendo già da remoto la soluzione molti problemi o consentendo un intervento più mirato sul campo.
     whypara4: Con <b>Riunioni.Online</b> oggi è più facile interagire e comunicare, dialogare e fare domande ai colleghi o ai docenti. Facilita la creazione un ambiente collaborativo ed integrato nella tua azienda, favorisce la circolazione delle informazioni e la diffusione delle competenze, ti consente di risparmiare sui costi.
     share: Consiglialo ai tuoi amici
   footer:
