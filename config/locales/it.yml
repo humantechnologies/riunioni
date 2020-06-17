@@ -36,7 +36,7 @@ it:
         enabled: Abilitato
         info: Permettere l'accesso solo ad utenti autenticati
         title: Richiedi autenticazione per ogni sala
-        user-info: Devi prima registrarti a Riunioni.Online per accedere alla Sala
+        user-info: Devi prima registrarti a <b>Riunioni.Online</b> per accedere alla Sala
       branding:
         change: Cambia immagine
         info: Cambia il logo del brand che appare nell'angolo in alto a sinistra
@@ -185,7 +185,7 @@ it:
       help: Prego contatta l'amministratore di sistema affinché configuri Greenlight
     not_found:
       message: Spiacente! La pagina che stai cercando non esiste.
-      help: "Possibile che sia stato rimossa?"
+      help: "Possibile che sia stata rimossa?"
       user_not_found:
         help: Prego contatta un amministratore.
         message: "Spiacente, questo Utente non è registrato."
@@ -205,18 +205,18 @@ it:
   expired_reset_token: Il link per il reset della password è scaduto!
   features:
     title: Servizio gratuito durante tutto il periodo di Emergenza COVID-2019
-    subtitle: "La prima piattaforma italiana di  videoconferenze e didattica online. Qui puoi creare le tue Sale Virtuali per le tue riunioni professionali e lezioni, o collegarti con i tuoi  amici in  modo semplice e veloce. Invia il link della tua sala per consentire l'accesso alla riunioni, usa la lavagna virtuale per disegnare e per mostrare presentazioni e contenuti multimediali, chatta e condividi il tuo schermo con i partecipanti."
-    subtitle2: Uno strumento essenziale per le riunioni di lavoro di piccole e medie imprese, per l'organizzazione di corsi e webinar, per i professionisti della formazione a distanza, per docenti e studenti che vogliono organizzare lezioni private, ripetizioni o aule di sostegno.
+    subtitle: "La prima piattaforma italiana di sale riunioni, videoconferenze, e formazione online. Qui puoi creare le tue sale virtuali per riunioni, webinar, conferenze, corsi, assemblee. Invita nelle tue sale riunione semplicemente inviando il link della tua sala, non si deve installare nessun software. Usa la lavagna virtuale per mostrare presentazioni e contenuti multimediali ai partecipanti."
+    subtitle2: Uno strumento professionale e flessibile per le riunioni di lavoro di professionisti, associazioni, piccole e medie imprese, per professionisti della formazione a distanza, per scuole e docenti che vogliono organizzare doposcuola, ripetizioni, aule di sostegno.
     rooms: Sale Riunioni
-    roomsdetails: Meetings Aziendali, Riunioni Professionali, Lezioni 
-    recordings: Resistrazione e Crittografia
-    recordingsdetails: Registrazione Riunioni e Collegamenti Crittografati
-    designs: Video Webinars
-    designdetails: Webinars, Video Corsi, Formazione e Lezioni di Gruppo
+    roomsdetails: Riunioni, Conferenze, Webinar, Corsi, Interviste, Lezioni 
+    recordings: Collegamento Criptato
+    recordingsdetails: Massima sicurezza dei collegamenti, nessun dato pesonale raccolto 
+    designs: Coniguabile
+    designdetails: uoli di modeatoe, ascoltatoe, pesentatoe
     authentication: Condivisione Schermo
-    authdetails: Lavagna Virtuale e Condivisione Materiale Didattico
-    whytitle: Perchè usare le Aule Virtuali di Riunioni.Online
-    whypara1: Se sei un docente, una scuola o una società che eroga formazione nelle aule virtuali di Riunioni.online puoi ospitare le tue lezioni individuali e di gruppo, organizzare webinar e seminari per studenti e professionisti senza far muovere i partecipanti da casa, da scuola o dalla propria postazione di lavoro.
+    authdetails: Lavagna Virtuale e Condivisione Materiale Formati
+    whytitle: Perchè usare le Aule Virtuali di <b>Riunioni.Online</b>
+    whypara1: Se sei una società che eroga formazione nelle aule virtuali di Riunioni.online puoi ospitare le tue lezioni individuali e di gruppo, organizzare webinar e seminari per studenti e professionisti senza far muovere i partecipanti da casa, da scuola o dalla propria postazione di lavoro.
     whypara2: Se gestisti una azienda puoi organizzare riunioni o erogare corsi di formazione e aggiornamento ai tuoi dipendenti direttamente nella loro postazione, anche in sedi diverse sparse sul territorio, con una notevole ottimizzazione dei tempi di esecuzione e riduzione dei costi per spostamenti e logistica.
     whypara3: Puoi anche utilizzare i nostri servizi per fornire supporto tecnico online ai clienti della tua attività, consentendogli di connettersi in videoconferenza per richiedere informazioni e parlare con un esperto  della tua azienda, anticipando già da remoto la soluzione di alcuni problemi o consentendo un intervento più mirato sul campo.
     whypara4: Con Riunioni.online oggi è più facile interagire e comunicare, dialogare online con i propri studenti, fare domande ai docenti. Facilita la creazione un ambiente collaborativo ed integrato nella tua azienda, favorisce la diffusione di informazioni e materiale educativo, ti consente di risparmiare sui costi.
