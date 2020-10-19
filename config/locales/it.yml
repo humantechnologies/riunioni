@@ -205,12 +205,12 @@ it:
   expired_reset_token: Il link per il reset della password è scaduto!
   features:
     title: Servizio gratuito durante tutto il periodo di Emergenza COVID-2019
-    subtitle: "La prima piattaforma italiana di sale riunioni, videoconferenze, e formazione online rivolta ad una utenza professionale. Qui puoi creare le tue sale virtuali per riunioni, webinar, conferenze, corsi, assemblee. Invita nelle tue sale riunione semplicemente inviando il link della tua sala, non si deve installare nessun software. Usa la lavagna virtuale per mostrare presentazioni e contenuti multimediali ai partecipanti."
-    subtitle2: Uno strumento flessibile per le riunioni di lavoro di professionisti, associazioni, piccole e medie imprese, per scuole che vogliono organizzare doposcuola o aule di sostegno.
+    subtitle: "La prima piattaforma italiana per sale riunioni, videoconferenze, e formazione online rivolta ad una utenza professionale. Qui puoi creare le tue sale virtuali per riunioni, webinar, conferenze, corsi, assemblee. Invita nelle tue sale riunione semplicemente inviando il link della tua sala, non si deve installare nessun software. Usa la lavagna virtuale per mostrare presentazioni e contenuti multimediali ai partecipanti."
+    subtitle2: Uno strumento flessibile per le riunioni di lavoro di professionisti, associazioni, piccole e medie imprese, per le scuole che vogliono organizzare doposcuola o aule di sostegno.
     rooms: Sale Riunioni
     roomsdetails: ideali per riunioni, conferenze, webinar, corsi, interviste, lezioni 
     recordings: Collegamento Criptato
-    recordingsdetails: massima sicurezza dei collegamenti (Classe A+), nessun dato pesonale raccolto 
+    recordingsdetails: massima sicurezza dei collegamenti (Classe A+), nessun dato personale raccolto 
     designs: Configurabile
     designdetails: ruoli di moderatore, presentatore, ascoltatore
     authentication: Condivisione Schermo
