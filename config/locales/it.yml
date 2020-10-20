@@ -167,7 +167,7 @@ it:
       help: Torneremo presto online!
     migration_error:
       contact_admin: "Non sei un amministratore, dovresti contattarne uno serio."
-      continue: Voglio restare con la verisione 1.0.
+      continue: Voglio restare con la versione 1.0.
       notice: >
         Si è verificato un errore nella migrazione del database di GreenLight. <br> Questo può essere perché non hai aggiornato alla versione 2.0.
       upgrade: Mostrami come aggiornare alla versione 2.0!
@@ -367,7 +367,7 @@ it:
       confirm: "Sicuro di voler eliminare questo account?"
       delete: Sono sicuro. Elimina questo account.
       keep: "mmmh no dai, NON eliminarlo."
-      warning: Questa è la tua ultima possibilità. <b>Non</b> sarai in grado di recuperare i dati associati.
+      warning: Questa è la tua ultima possibilità. <b>NON</b> sarai in grado di recuperare i dati associati.
     delete_room:
       confirm: "Sicuro di voler eliminare %{room}?"
       delete: "Sono sicuro, elimina la riunione."
@@ -490,7 +490,7 @@ it:
     enter_the_access_code: Immetti il codice di accesso alla sala
     invalid_provider:
     invited: Hai ricevuto un invito alla riunione, per partecipare inserisci il tuo nome e premi il tasto partecipa
-    invited_instructions: (non è necessario registrarsi alla conferenza o al sito per partecipare)
+    invited_instructions: (non è necessario registrarsi o accedere per partecipare)
     invite_participants: Invita partecipanti
     join: Partecipa
     last_session: "Ultima sessione: %{session}"
