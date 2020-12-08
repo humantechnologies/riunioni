@@ -1,4 +1,4 @@
-Updated: January 24, 2019
+Updated: December 08, 2020
 
 Riunioni.Online is committed to protecting your privacy and ensuring you have a positive experience on our website and in using our products and services (collectively, "Products"). This policy covers the Riunioni.Online website, mobile applications, and desktop clients and is applicable worldwide.
 
@@ -190,7 +190,7 @@ Riunioni.Online: https://Riunioni.online, un sito di HT Tecnologie Umanistiche
 
 Attention: Data Privacy Officer
 
-HT Tecnologie Umanistiche, Via Assarotti 38/16, 16122 Genova, Italia.
+HT Tecnologie Umanistiche, via San Rocco 27C, 16032 Camogli (GE), Italia.
 
 Il nostro indirizzo email è: <a href="mailto:info@tecnologie-umanistiche.it" rel="nofollow">info@tecnologie-umanistiche.it</a>
 

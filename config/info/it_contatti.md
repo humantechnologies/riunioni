@@ -1,10 +1,10 @@
 Riunioni.Online è un marchio di:
 
-HT Tecnologie Umanistiche s.r.l.
+HT Tecnologie Umanistiche.
 
-Via Assarotti 38/16, 16122 Genova, Italia.
+via San Rocco 27C, 16032 Camogli (GE), Italia.
 
-CF/p.iva n. iscrizione cciia 02160600991
+p.iva n. 02691600999
 
 mobile:+39 3357499489
 

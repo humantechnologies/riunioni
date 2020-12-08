@@ -1,8 +1,8 @@
-Policy aggiornata il 28 Marzo 2020
+Policy aggiornata l' 08 Dicembre 2020
 
 ###Chi siamo
 
-L'indirizzo del nostro sito web è: https://Riunioni.online, un sito di HT Tecnologie Umanistiche, Via Assarotti 38/16, 16122 Genova, Italia.
+L'indirizzo del nostro sito web è: https://Riunioni.online, un sito di HT Tecnologie Umanistiche, via San Rocco 27C, 16032 Camogli (GE), Italia.
 
 Il nostro indirizzo email è: <a href="mailto:info@tecnologie-umanistiche.it" rel="nofollow">info@tecnologie-umanistiche.it</a>
 
@@ -202,7 +202,7 @@ Per qualsisi richiesta relativa alla privacy e a questa Informativa sulla sulla 
 
 Puoi anche contattarci scrivendo all'attenzione del responsabile della privacy dei dati a questo indirizzo:
 
-HT Tecnologie Umanistiche, Via Assarotti 38/16, 16122 Genova, Italia.
+HT Tecnologie Umanistiche, via San Rocco 27C, 16032 Camogli (GE), Italia.
 
 
 
