@@ -36,7 +36,7 @@ it:
         enabled: Abilitato
         info: Permettere l'accesso solo ad utenti autenticati
         title: Richiedi autenticazione per ogni sala
-        user-info: Devi prima registrarti a <b>Riunioni.Online</b> per accedere alla Sala
+        user-info: Devi prima registrarti a Riunioni.Online per accedere alla Sala
       branding:
         change: Cambia immagine
         info: Cambia il logo del brand che appare nell'angolo in alto a sinistra
@@ -167,7 +167,7 @@ it:
       help: Torneremo presto online!
     migration_error:
       contact_admin: "Non sei un amministratore, dovresti contattarne uno serio."
-      continue: Voglio restare con la versione 1.0.
+      continue: Voglio restare con la verisione 1.0.
       notice: >
         Si è verificato un errore nella migrazione del database di GreenLight. <br> Questo può essere perché non hai aggiornato alla versione 2.0.
       upgrade: Mostrami come aggiornare alla versione 2.0!
@@ -185,7 +185,7 @@ it:
       help: Prego contatta l'amministratore di sistema affinché configuri Greenlight
     not_found:
       message: Spiacente! La pagina che stai cercando non esiste.
-      help: "Possibile che sia stata rimossa?"
+      help: "Possibile che sia stato rimossa?"
       user_not_found:
         help: Prego contatta un amministratore.
         message: "Spiacente, questo Utente non è registrato."
@@ -204,26 +204,26 @@ it:
        terms: termini e condizioni devono essere accettati
   expired_reset_token: Il link per il reset della password è scaduto!
   features:
-    title: Servizio gratuito durante tutto il periodo di Emergenza COVID-2019
-    subtitle: "La prima piattaforma italiana per sale riunioni, videoconferenze, e formazione online rivolta ad una utenza professionale. Qui puoi creare le tue sale virtuali per riunioni, webinar, conferenze, corsi, assemblee. Invita nelle tue sale riunione semplicemente inviando il link della tua sala, non si deve installare nessun software. Usa la lavagna virtuale per mostrare presentazioni e contenuti multimediali ai partecipanti."
-    subtitle2: Uno strumento flessibile per le riunioni di lavoro di professionisti, associazioni, piccole e medie imprese, per le scuole che vogliono organizzare doposcuola o aule di sostegno.
+    title: "Il servizio di riunioni.online è offerto gratuitamente per il periodo di un mese, trascorso il quale sarete contattati via email con la proposta di un contratto di servizio adatto alle vostre esigenze."
+    subtitle: Se volete usufruire di un servizio gratuito potete visitare il sito gemello chiamami.online, dedicato gli utenti non professionali.
+    subtitle2: Riunioni.Online è uno strumento essenziale per le riunioni di lavoro di piccole e medie imprese, per l'organizzazione di corsi e webinar, per i professionisti della formazione a distanza, per docenti e studenti che vogliono organizzare lezioni private, ripetizioni o aule di sostegno.
     rooms: Sale Riunioni
-    roomsdetails: ideali per riunioni, conferenze, webinar, corsi, interviste, lezioni 
-    recordings: Collegamento Criptato
-    recordingsdetails: massima sicurezza dei collegamenti (Classe A+), nessun dato personale raccolto 
-    designs: Configurabile
-    designdetails: ruoli di moderatore, presentatore, ascoltatore
+    roomsdetails: Meetings Aziendali, Riunioni Professionali, Lezioni 
+    recordings: Resistrazione e Crittografia
+    recordingsdetails: Registrazione Riunioni e Collegamenti Crittografati
+    designs: Video Webinars
+    designdetails: Webinars, Video Corsi, Formazione e Lezioni di Gruppo
     authentication: Condivisione Schermo
-    authdetails: condivisione schermo, lavagna virtuale e condivisione materiale formativo
-    whytitle: Perchè usare le Aule Virtuali di <b>Riunioni.Online</b>
-    whypara1: Se sei una società che eroga formazione, nelle aule virtuali di <b>Riunioni.Online</b> puoi ospitare i tuoi webinar e seminari per professionisti senza far muovere i partecipanti da casa o dalla propria sede di lavoro.
-    whypara2: Se gestisci una azienda puoi organizzare riunioni o erogare corsi di aggiornamento ai tuoi dipendenti direttamente alla loro postazione di lavoro, anche in sedi diverse sparse sul territorio, con una notevole ottimizzazione dei tempi di esecuzione e riduzione dei costi per spostamenti e logistica.
-    whypara3: Puoi interagire con i nuovi clienti (non devono installare nessun nuovo software sui loro computer!) o fornire supporto tecnico online ai clienti della tua attività, consentendogli di connettersi in videoconferenza per richiedere informazioni e parlare con un esperto  della tua azienda, risolvendo già da remoto la soluzione molti problemi o consentendo un intervento più mirato sul campo.
-    whypara4: Con <b>Riunioni.Online</b> oggi è più facile interagire e comunicare, dialogare e fare domande ai colleghi o ai docenti. Facilita la creazione un ambiente collaborativo ed integrato nella tua azienda, favorisce la circolazione delle informazioni e la diffusione delle competenze, ti consente di risparmiare sui costi.
+    authdetails: Lavagna Virtuale e Condivisione Materiale Didattico
+    whytitle: Perchè usare le Aule Virtuali di Riunioni.Online
+    whypara1: Se sei un docente, una scuola o una società che eroga formazione nelle aule virtuali di Riunioni.online puoi ospitare le tue lezioni individuali e di gruppo, organizzare webinar e seminari per studenti e professionisti senza far muovere i partecipanti da casa, da scuola o dalla propria postazione di lavoro.
+    whypara2: Se gestisti una azienda puoi organizzare riunioni o erogare corsi di formazione e aggiornamento ai tuoi dipendenti direttamente nella loro postazione, anche in sedi diverse sparse sul territorio, con una notevole ottimizzazione dei tempi di esecuzione e riduzione dei costi per spostamenti e logistica.
+    whypara3: Puoi anche utilizzare i nostri servizi per fornire supporto tecnico online ai clienti della tua attività, consentendogli di connettersi in videoconferenza per richiedere informazioni e parlare con un esperto  della tua azienda, anticipando già da remoto la soluzione di alcuni problemi o consentendo un intervento più mirato sul campo.
+    whypara4: Con Riunioni.online oggi è più facile interagire e comunicare, dialogare online con i propri studenti, fare domande ai docenti. Facilita la creazione un ambiente collaborativo ed integrato nella tua azienda, favorisce la diffusione di informazioni e materiale educativo, ti consente di risparmiare sui costi.
     share: Consiglialo ai tuoi amici
   footer:
     powered_by: "Copyright 2020:   %{href}."
-    ht: "HT Tecnologie Umanistiche s.r.l. - cf/p.iva 02160600991"
+    ht: "HT Tecnologie Umanistiche - p.iva 02691600999"
     mail: info@riunioni.online
     phone: "+39 3357499489"
     terms: Termini di Utilizzo
@@ -238,7 +238,7 @@ it:
     submit: Invia
   go_back: Indietro
   go_home: Vai alle Sale
-  greenlight: <b>Riunioni.Online</b>
+  greenlight: Riunioni.Online
   header:
     all_recordings: Tutte le Registrazioni
     dropdown:
@@ -273,10 +273,10 @@ it:
         autogenerated: 'Questa email è stata generata automaticamente da Riunioni.Online.'
         footer: 'Riunioni.Online è un sistema di videoconferenza basato su software open source.'
   landing:
-    about: "<b>attenzione: questo servizio non &egrave; gratuito!</b><br><b>provalo gratuitamente poi contattaci (info@riunioni.online) per avere un preventivo adatto alle tue necessit&agrave;.</b><br><br>La prima piattaforma italiana di sale riunioni, videoconferenze, e formazione online. Qui puoi creare le tue sale virtuali per riunioni, webinar, conferenze, corsi, assemblee. Invita nelle tue sale riunione semplicemente inviando il link della tua sala, non si deve installare nessun software. Usa la lavagna virtuale per mostrare presentazioni e contenuti multimediali ai partecipanti."
-    welcome: benvenuto su <b>Riunioni.Online</b>
+    about: "La prima piattaforma italiana di web conferencing e didattica online. Qui puoi creare le tue Aule Virtuali per le tue riunioni e lezioni, o collegarti con i tuoi  amici in  modo semplice e veloce. Invia il link della tua Aula per consentire l'accesso alla riunioni, usa la lavagna virtuale per disegnare e per mostrare presentazioni e contenuti multimediali, chatta e condividi il tuo schermo con i partecipanti."
+    welcome: benvenuto su Riunioni.Online
     meetings: con te ovunque tu sia
-    video: Il servizio sarà illimitato e gratuito durante il periodo di Emergenza COVID-2019
+    video: Il servizio sarà illimitato (registrazioni escluse) e gratuito durante il periodo di Emergenza COVID-2019
     upgrade: Mostrami come passare a 2.0!
     version: Abbiamo una nuova versione di Riunioni, ma il tuo database non è compatibile.
   language_default: Predefinito (linguaggio del browser)
@@ -338,14 +338,14 @@ it:
   max_concurrent: E' stato raggiunto il massimo numero di sessioni contemporanee!
   meta:
      hometitle: "Riunioni.Online, Riunioni e Lezioni Online"
-     homedescription: "Sale Virtuali per riunioni, conferenze e webinar, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
+     homedescription: "Sale Virtuali per riunioni e lezioni, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
      homekeywords: "riunioni online, lezioni online, ripetizioni, videoconferenze, webinar, meetings, formazione, docenti, studenti, aula virtuale, condivisione schermo"
      staticpagestitle: "Riunioni.Online"
-     staticpagesdescription: "Sale Virtuali per riunioni, conferenze e webinar, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
+     staticpagesdescription: "Sale Virtuali per riunioni e lezioni, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
      staticpageskeywords: "riunioni online, lezioni online, videoconferenze, webinar, meetings, aula virtuale, condivisione schermo"
      title: "Riunioni.Online"
-     description: "sale virtuali per riunioni, conferenze e webinar, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
-     keywords: "riunioni online, formazione online, videoconferenze, webinar, meetings"
+     description: "sale Virtuali per riunioni e lezioni, dotate di lavagna virtuale per disegnare, per caricare presentazioni e contenuti multimediali, condivisione dello schermo."
+     keywords: "riunioni online, lezioni online, videoconferenze, webinar, meetings"
      language: it
   modal:
     create_role:
@@ -359,15 +359,15 @@ it:
       access_code_placeholder: Genera un Codice di Accesso opzionale
       auto_join: Aggiungimi automaticamente alla riunione
       create: Crea Sala Riunione
-      free_delete: Puoi eliminare la sala riunioni in qualsiasi momento.
-      name_placeholder: Inserisci il nome della sala riunioni...
+      free_delete: Puoi eliminare Sala Riunioni in qualsiasi momento.
+      name_placeholder: Inserisci il nome della Sala Riunioni...
       not_blank: Il nome della riunione non può essere vuoto
-      title: Crea una nuova sala
+      title: Crea una nuova Sala
     delete_account:
       confirm: "Sicuro di voler eliminare questo account?"
       delete: Sono sicuro. Elimina questo account.
       keep: "mmmh no dai, NON eliminarlo."
-      warning: Questa è la tua ultima possibilità. <b>NON</b> sarai in grado di recuperare i dati associati.
+      warning: Questa è la tua ultima possibilità. <b>Non</b> sarai in grado di recuperare i dati associati.
     delete_room:
       confirm: "Sicuro di voler eliminare %{room}?"
       delete: "Sono sicuro, elimina la riunione."
@@ -385,20 +385,20 @@ it:
       forgot_password: "Hai dimenticato la password?"
     rename_recording:
     room_settings:
-      title: Impostazioni della sala
-      update: Aggiorna sala
+      title: Impostazioni della Sala
+      update: Aggiorna Sala
       client: Seleziona il tipo di interfaccia
       join_moderator: Consenti agli utenti di partecipare come moderatori
       mute: Silenzia utenti quando entrano nella Sala
       require_approval: Richiedi l'approvazione del moderatore per partecipare
       start: Consenti ad ogni utente di iniziare la riunione
-      footer_text: Le impostazioni della sala possono essere cambiate in qualsiasi momento.
+      footer_text: Le impostazioni della Sala possono essere cambiate in qualsiasi momento.
     rename_room:
       name_placeholder: Inserisci il nome della nuova Sala...
     share_access:
       footer: Condividere una sala con altri utenti consente loro di iniziare una riunione e visualizzare le registrazioni
       list: Condivisa con
-      title: Condividi accesso alla sala
+      title: Condividi accesso alla Sala
       save: Salva le modifiche
       cancel_changes: Annulla
       select: Seleziona Utente
@@ -484,13 +484,13 @@ it:
     user: Utente
   room:
     access_code_required: Prego immettere un codice valido per entrare nella Sala
-    create_room: Crea una sala
+    create_room: Crea una Sala
     create_room_error: Si è verificato un errore nella creazione della Sala
-    create_room_success: La sala è stata creata correttamente
-    enter_the_access_code: Immetti il codice di accesso alla sala
+    create_room_success: La Sala è stata creata correttamente
+    enter_the_access_code: Immetti il codice di accesso alla Sala
     invalid_provider:
     invited: Hai ricevuto un invito alla riunione, per partecipare inserisci il tuo nome e premi il tasto partecipa
-    invited_instructions: (non è necessario registrarsi o accedere per partecipare)
+    invited_instructions: (non è necessario registrarsi alla conferenza o al sito per partecipare)
     invite_participants: Invita partecipanti
     join: Partecipa
     last_session: "Ultima sessione: %{session}"
@@ -504,26 +504,26 @@ it:
       placeholder:
       no_recent_rooms:
       recent_rooms:
-      title: Entra in una sala
-    no_sessions: Questa sala non ha ancora una sessione attiva!
-    recordings: Registrazioni della sala
+      title: Entra in una Sala
+    no_sessions: Questa Sala non ha ancora una sessione attiva!
+    recordings: Registrazioni della Sala
     room_limit: Hai raggiunto il numero massimo di sale consentito
     room_limit_exceeded:
     sessions: Sessioni
-    settings: Impostazioni sala
+    settings: Impostazioni Sala
     share: Gestione Accessi
     shared_by: Condiviso da %{email}
     remove_shared_access_success: Sala condivisa rimossa dalla tua lista delle sale
-    remove_shared_access_error: Errore cancellando la sala condivisa dalla tua lista delle sale
-    shared_access_success: Sala condivisa con successo
-    shared_access_error: Errore condividendo la sala
+    remove_shared_access_error: Errore cancellando la Sala condivisa dalla tua lista delle sale
+    shared_access_success: Sala Condivisa con successo
+    shared_access_error: Errore condividendo la Sala
     start: Entra in Riunione
     unavailable: La Sala non è disponibile finché il proprietario non verifica il suo indirizzo email.
     update_settings_error: Si è verificato un errore nell'aggiornamento dei dettagli della Sala
     update_settings_success: Impostazioni della Sala aggiornate correttamente
     wait:
-      message: La riunione non è ancora iniziata
-      auto: Verrai fatto entrare nella sala non appena la riunione avrà inizio.
+      message: Il meeting non è stato ancora avviato
+      auto: Verrai inserito nella Sala non appena il meeting avrà inizio.
   settings:
     account:
       fullname: Nome completo
