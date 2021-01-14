@@ -122,7 +122,7 @@ it:
         edit: Modifica
         edit_roles: Modifica i ruoli dell'utente
         merge: Unisci acccounts
-        perm_delete: Permanently Delete
+        perm_delete: Cancella Permanentemente
         unban: Sblocca utente
         undelete: Ripristina
       table:
@@ -151,7 +151,7 @@ it:
   delivery_error: Si è verificato un'errore nella consegna della mail. Contatta un amministratore (mail info@riunioni.online)
   docs: Documentazione
   email: Email
-  email_sent: "Ti abbiamo inviato una email di %{email_type}! (Controlla anche nella tua cartella Spam se non la trovi)"
+  email_sent: "Ti abbiamo inviato una email di %{email_type}! (Se non la trovi controlla anche nella tua cartella Spam)"
   enter_your_name: Inserisci il tuo nome!
   errors:
     bigbluebutton:
@@ -166,7 +166,7 @@ it:
       message: "Ci dispiace, siamo offline per operazioni tecniche di manutenzione"
       help: Torneremo presto online!
     migration_error:
-      contact_admin: "Non sei un amministratore, dovresti contattarne uno serio."
+      contact_admin: "Non sei un amministratore, dovresti contattarne uno (serio)."
       continue: Voglio restare con la verisione 1.0.
       notice: >
         Si è verificato un errore nella migrazione del database di GreenLight. <br> Questo può essere perché non hai aggiornato alla versione 2.0.
@@ -489,7 +489,7 @@ it:
     create_room_success: La Sala è stata creata correttamente
     enter_the_access_code: Immetti il codice di accesso alla Sala
     invalid_provider:
-    invited: Hai ricevuto un invito alla riunione, per partecipare inserisci il tuo nome e premi il tasto partecipa
+    invited: Hai ricevuto un invito alla riunione, per partecipare inserisci il nome della tua azienda (o il tuo nome) e premi il tasto partecipa
     invited_instructions: (non è necessario registrarsi alla conferenza o al sito per partecipare)
     invite_participants: Invita partecipanti
     join: Partecipa
