@@ -166,10 +166,9 @@ it:
       message: "Ci dispiace, siamo offline per operazioni tecniche di manutenzione"
       help: Torneremo presto online!
     migration_error:
-      contact_admin: "Non sei un amministratore, dovresti contattarne uno (serio)."
-      continue: Voglio restare con la verisione 1.0.
-      notice: >
-        Si è verificato un errore nella migrazione del database di GreenLight. <br> Questo può essere perché non hai aggiornato alla versione 2.0.
+      contact_admin: "Non sei un amministratore, dovresti contattarne uno! (serio)."
+      continue: Voglio restare con la versione 1.0.
+      notice: Si è verificato un errore nella migrazione del database di GreenLight. <br> Questo può essere perché non hai aggiornato alla versione 2.0.
       upgrade: Mostrami come aggiornare alla versione 2.0!
       version: Abbiamo rilasciato una nuova versione di GreenLight ma il tuo database non sembra essere compatibile.
     messages:
@@ -435,7 +434,7 @@ it:
   recording:
     all_recordings: Tutte le registrazioni
     email: Registrazioni Email
-    no_recordings: "Questa Sala non ha %{inject} registrazioni."
+    no_recordings: "Questa Sala non ha registrazioni."
     no_user_recordings: Non ci sono registrazioni al momento.
     no_matched_recordings: Nessuna registrazione corrisponde alla tua ricerca.
     recorded_on: "Registrato il %{date}"
@@ -447,7 +446,7 @@ it:
       visibility: Visibilità
       formats: Formati
     visibility:
-      public: Pubblica
+      public: Pubblico
       unlisted: Non in elenco
     format:
       notes:
