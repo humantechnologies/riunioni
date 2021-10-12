@@ -11,7 +11,7 @@ end
 gem 'rails', '~> 5.2.3'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 
 # Use a sqlite database in production.
 gem 'sqlite3', '~> 1.3.6'
